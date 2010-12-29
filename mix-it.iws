@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a837e0-c877-46df-81c9-52d76f5bc3c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
-    </list>
+    <list default="true" id="11a837e0-c877-46df-81c9-52d76f5bc3c0" name="Default" comment="" />
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
