@@ -1,0 +1,76 @@
+html, body {
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #343838;
+    background: url('http://arin.me/blog/wp-content/themes/phatduckkNew/images/bg-small.png');
+}
+
+#main {
+    width: 80%;
+    margin-top: 100px;
+    font-family: 'mixit-font-bold';
+}
+/********* text **********/
+
+h1 {
+    text-align: center;
+    color: #00DFFC;
+    font-size: 120px;
+}
+
+h2 {
+    text-align: right;
+    margin-right:100px;
+    margin-top: -80px;
+    margin-bottom:60px;
+    font-size: 28px;
+    color: #00DFFC;
+}
+
+li {
+    margin-left: 80px;
+    line-height: 50px;
+}
+
+.image {
+    width:50px;
+    margin-left:10px;
+}
+
+#links {
+    text-align: right;
+    width:90%;
+    margin-top:100px;
+}
+/******** font *******/
+@font-face {
+	font-family: 'mixit-font-bold';
+	src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.eot');
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.woff');
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.otf');
+}
+
+@font-face {
+	font-family: 'mixit-font-thin';
+	src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-thin.eot');
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-thin.woff');
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-thin.otf');
+}
+
+.phonetic{
+    font-family: Verdana;
+    font-size: 20px;
+    /*color: #00B4CC*/
+    color:#DDD;
+}
+
+.def{
+    font-family: Verdana;
+    color: #008C9E;
+    font-size: 18px
+}
