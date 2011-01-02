@@ -13,4 +13,17 @@ public class Application extends Controller {
         render();
     }
 
+    public static void programme() {
+        renderTemplate("Application/schedule.html");
+    }
+
+    public static void speakers() {
+        renderTemplate("Application/speakers.html");
+    }
+
+
+    public static void description() {
+        renderTemplate("Application/description.html");
+    }
+
 }
