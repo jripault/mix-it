@@ -14,10 +14,14 @@ public class Application extends Controller {
     }
 
     public static void programme() {
+        List<Session> sessions = Session.findAll();
+        renderArgs.put("sessions",sessions);
         renderTemplate("Application/schedule.html");
     }
 
     public static void speakers() {
+        List<Speaker> speakers = Speaker.findAll();
+        renderArgs.put("speakers",speakers);
         renderTemplate("Application/speakers.html");
     }
 

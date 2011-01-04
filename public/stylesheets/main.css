@@ -80,3 +80,45 @@ li {
     color:#DDD;
     font-family: Verdana;
 }
+
+/******** speakers *******/
+#speaker {
+    margin-left:10%;
+    margin-top:2%;
+}
+
+#speaker #name {
+    color:#008C9E;
+    font-family: Verdana;
+    font-size:18px;
+}
+
+#speaker #bio {
+    color:#DDD;
+    font-family: Verdana;
+    font-size:15px;
+}
+
+/******** sessions *******/
+#session {
+    margin-left:10%;
+    margin-top:2%;
+}
+
+#session #name {
+    color:#008C9E;
+    font-family: Verdana;
+    font-size:18px;
+}
+
+#session #heure {
+    color:#DDD;
+    font-family: Verdana;
+    font-size:15px;
+}
+
+#session #infos {
+    color:#DDD;
+    font-family: Verdana;
+    font-size:15px;
+}

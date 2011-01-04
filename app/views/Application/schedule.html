@@ -1,4 +1,11 @@
 #{extends 'main.html' /}
 #{set title:'Programme' /}
+#{list items:sessions, as:'session'}
+<div id="session">
+    <div id="heure">${session.startTime.format("hh:mm")} - ${session.endTime.format("hh:mm")}</b></div>
+    <div id="name">${session.name}</div>
+    <div id="infos">${session.speaker.name}</div>
+</div>
+#{/list}
 #{nav/}
         
