@@ -7,7 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #343838;
-    background: url('http://arin.me/blog/wp-content/themes/phatduckkNew/images/bg-small.png');
+    background: url('/public/images/bg-small.png');
 }
 
 #main {
@@ -38,7 +38,7 @@ li {
 }
 
 .image {
-    width:5%;
+    width:40px;
     margin-left:1%;
 }
 
@@ -84,6 +84,7 @@ li {
 /******** speakers *******/
 #speaker {
     margin-left:10%;
+    margin-right:10%;
     margin-top:2%;
 }
 

@@ -1,25 +1,32 @@
 #{extends 'main.html' /}
 #{set title:'mix-it' /}
-
-<div id="main">
-    <h1>MIX - IT</h1>
-    <h2>... DES IDEES POUR TOUT DE SUITE !</h2>
-    <ul style="list-style-type:none">
-        <li><span class="phonetic">[mix it]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </li>
-        <li><span class="phonetic">[mixity]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </li>
-        <li><span class="phonetic">[mixite]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-        </li>
-    </ul>
-</div>
-#{nav/}
-<div id="links">
-    <a href="http://twitter.com/mixIT_Lyon">
-        <img class="image" src="http://arin.me/blog/wp-content/themes/phatduckkNew/images/icon-twitter.png"
-             alt="twitter"/>
-    </a>
-    <a href="http://twitter.com/mixIT_Lyon">
-        <img class="image" src="http://www.abelnmagy.com/blog/wp-content/uploads/2009/11/rss-icon.png" alt="rss"/>
-    </a>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $("#all").hide();
+        $("#all").fadeIn(5000, 0.0);
+    });
+</script>
+<div id="all">
+    <div id="main">
+        <h1>MIX - IT</h1>
+        <h2>... DES IDEES POUR TOUT DE SUITE !</h2>
+        <ul style="list-style-type:none">
+            <li><span class="phonetic">[mix it]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+            </li>
+            <li><span class="phonetic">[mixity]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+            </li>
+            <li><span class="phonetic">[mixite]</span><span class="def"> Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+            </li>
+        </ul>
+    </div>
+    #{nav/}
+    <div id="links">
+        <a href="http://twitter.com/mixIT_Lyon">
+            <img class="image" src="/public/images/icon-twitter.png"
+                 alt="twitter"/>
+        </a>
+        <a href="http://twitter.com/mixIT_Lyon">
+            <img class="image" src="/public/images/icon-rss.png" alt="rss"/>
+        </a>
+    </div>
 </div>
