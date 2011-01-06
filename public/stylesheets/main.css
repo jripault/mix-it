@@ -19,7 +19,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #00DFFC;
+    color: #00ADEE;
     font-size: 120px;
 }
 
@@ -29,7 +29,7 @@ h2 {
     margin-top: -8%;
     margin-bottom:6%;
     font-size: 28px;
-    color: #00DFFC;
+    color: #00ADEE;
 }
 
 li {
@@ -39,6 +39,11 @@ li {
 
 .image {
     width:40px;
+    margin-left:1%;
+}
+
+.logo {
+    width:65%;
     margin-left:1%;
 }
 
@@ -64,7 +69,7 @@ li {
 
 .def{
     font-family: Verdana;
-    color: #008C9E;
+    color: #00ADEE;
     font-size: 18px
 }
 
