@@ -10,6 +10,7 @@ public class Track extends SienaSupport
   @Id(Generator.AUTO_INCREMENT)
   public Long id;
 
+
   @Column("name")
   @NotNull
   public String name;

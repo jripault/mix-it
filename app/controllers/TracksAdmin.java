@@ -7,4 +7,5 @@ import play.mvc.With;
 @CRUD.For(Track.class)
 public class TracksAdmin extends controllers.CRUD
 {
+
 }

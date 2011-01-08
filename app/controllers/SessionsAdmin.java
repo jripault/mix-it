@@ -7,4 +7,5 @@ import play.mvc.With;
 @CRUD.For(Session.class)
 public class SessionsAdmin extends controllers.CRUD
 {
+
 }

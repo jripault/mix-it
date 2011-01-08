@@ -31,6 +31,7 @@ public class Slot extends SienaSupport
     return SienaSupport.all(Slot.class).order("startTime");
   }
 
+
   public static List<Slot> findAll()
   {
     return all().fetch();

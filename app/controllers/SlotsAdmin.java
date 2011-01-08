@@ -7,4 +7,5 @@ import play.mvc.With;
 @CRUD.For(Slot.class)
 public class SlotsAdmin extends CRUD
 {
+
 }

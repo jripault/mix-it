@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="11a837e0-c877-46df-81c9-52d76f5bc3c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/AttendeesAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Security.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SessionsAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SlotsAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SpeakersAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/TracksAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/SessionType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Slot.java" />
-      <change type="DELETED" beforePath="H:\dev\mix-it\app\controllers\Attendees.java" afterPath="" />
-      <change type="DELETED" beforePath="H:\dev\mix-it\app\controllers\Sessions.java" afterPath="" />
-      <change type="DELETED" beforePath="H:\dev\mix-it\app\controllers\Speakers.java" afterPath="" />
-      <change type="DELETED" beforePath="H:\dev\mix-it\app\controllers\Tracks.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/AttendeesAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/AttendeesAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Security.java" afterPath="$PROJECT_DIR$/app/controllers/Security.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SessionsAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/SessionsAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SlotsAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/SlotsAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SpeakersAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/SpeakersAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TracksAdmin.java" afterPath="$PROJECT_DIR$/app/controllers/TracksAdmin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Attendee.java" afterPath="$PROJECT_DIR$/app/models/Attendee.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Session.java" afterPath="$PROJECT_DIR$/app/models/Session.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/SessionType.java" afterPath="$PROJECT_DIR$/app/models/SessionType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Slot.java" afterPath="$PROJECT_DIR$/app/models/Slot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Speaker.java" afterPath="$PROJECT_DIR$/app/models/Speaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Track.java" afterPath="$PROJECT_DIR$/app/models/Track.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.ipr" afterPath="$PROJECT_DIR$/mix-it.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
-    </list>
-    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iml" afterPath="$PROJECT_DIR$/mix-it.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="mix-it.iws" />
@@ -86,10 +81,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="SpeakersAdmin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/SpeakersAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TracksAdmin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/TracksAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attendee.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Attendee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Session.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Session.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/SessionType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Slot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="48" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+            <state line="32" column="2" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,37 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dateTimeField.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/views/tags/crud/dateTimeField.html">
+      <file leaf-file-name="Speaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="11" selection-start="254" selection-end="261" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CRUD.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/controllers/CRUD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="75" selection-start="6842" selection-end="6842" vertical-scroll-proportion="-10.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../play-1.1/framework/play.jar!/play/mvc/Controller.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-8.16">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="33" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,19 +154,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
+      <file leaf-file-name="Track.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Track.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="339" selection-end="339" vertical-scroll-proportion="0.34968355">
+            <state line="12" column="2" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/application.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.33586627">
               <folding />
             </state>
           </provider>
@@ -168,22 +196,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/Tracks.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Sessions.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Speakers.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Attendees.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Slots.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Security.java" />
-        <option value="$PROJECT_DIR$/app/models/Session.java" />
-        <option value="$PROJECT_DIR$/app/controllers/SlotsAdmin.java" />
-        <option value="$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/models/Track.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
-        <option value="$PROJECT_DIR$/app/views/Application/schedule.html" />
-        <option value="$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/templates/MyExtensions.java" />
+        <option value="$PROJECT_DIR$/app/controllers/AttendeesAdmin.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Security.java" />
+        <option value="$PROJECT_DIR$/app/controllers/SessionsAdmin.java" />
+        <option value="$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java" />
+        <option value="$PROJECT_DIR$/app/controllers/SlotsAdmin.java" />
+        <option value="$PROJECT_DIR$/app/controllers/SpeakersAdmin.java" />
+        <option value="$PROJECT_DIR$/app/controllers/TracksAdmin.java" />
+        <option value="$PROJECT_DIR$/app/models/Attendee.java" />
+        <option value="$PROJECT_DIR$/app/models/Session.java" />
+        <option value="$PROJECT_DIR$/app/models/SessionType.java" />
         <option value="$PROJECT_DIR$/app/models/Slot.java" />
+        <option value="$PROJECT_DIR$/app/models/Speaker.java" />
+        <option value="$PROJECT_DIR$/app/models/Track.java" />
+        <option value="$PROJECT_DIR$/conf/application.conf" />
+        <option value="$PROJECT_DIR$/conf/routes" />
       </list>
     </option>
   </component>
@@ -391,62 +419,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mix-it" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -485,6 +457,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,7 +658,6 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11a837e0-c877-46df-81c9-52d76f5bc3c0" name="Default" comment="" />
       <changelist id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="" />
       <created>1293651091524</created>
       <updated>1294518732007</updated>
@@ -694,24 +669,24 @@
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.6709109" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.6709109" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -730,7 +705,7 @@
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fichier appengine et gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications sur le modèle" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -746,6 +721,7 @@
     <MESSAGE value="Définition du projet IDEA" />
     <MESSAGE value="Ajout des modules GAE et Siena" />
     <MESSAGE value="fichier appengine et gitignore" />
+    <MESSAGE value="Modifications sur le modèle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -755,113 +731,134 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="126" selection-end="128" vertical-scroll-proportion="-2.6153846">
+        <state line="24" column="39" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AttendeesAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SessionsAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/SlotsAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="9" column="2" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../play-1.1/modules/siena-1.3/lib/siena-0.7.7.jar!/siena/DateTime.class">
+    <entry file="file://$PROJECT_DIR$/app/controllers/SpeakersAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="297" selection-end="297" vertical-scroll-proportion="-4.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="1" selection-start="347" selection-end="498" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+        <state line="9" column="2" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/controllers/TracksAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="9" column="2" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Attendee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/views/tags/crud/checkField.html">
+    <entry file="file://$PROJECT_DIR$/app/models/Session.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="11" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/views/tags/crud/dateTimeField.html">
+    <entry file="file://$PROJECT_DIR$/app/models/SessionType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="254" selection-end="261" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../play-1.1/framework/play.jar!/play/mvc/Controller.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="727" selection-end="727" vertical-scroll-proportion="-8.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/controllers/CRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="75" selection-start="6842" selection-end="6842" vertical-scroll-proportion="-10.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/views/tags/crud/types.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/app/views/tags/crud/fileField.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="45" selection-start="567" selection-end="567" vertical-scroll-proportion="0.2107438">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="2" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="48" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+        <state line="32" column="2" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
+    <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="339" selection-end="339" vertical-scroll-proportion="0.34968355">
+        <state line="8" column="1" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Track.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="2" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="410" selection-end="410" vertical-scroll-proportion="0.33586627">
           <folding />
         </state>
       </provider>

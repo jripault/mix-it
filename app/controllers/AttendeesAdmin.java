@@ -6,4 +6,5 @@ import play.mvc.With;
 @CRUD.For(Attendee.class)
 public class AttendeesAdmin extends controllers.CRUD
 {
+
 }

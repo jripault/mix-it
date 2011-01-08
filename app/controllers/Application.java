@@ -22,6 +22,7 @@ public class Application extends Controller
 
     renderArgs.put("tracks", tracks);
     renderArgs.put("slots", slots);
+    renderArgs.put("sessions", sessions);
     renderTemplate("Application/schedule.html");
   }
 

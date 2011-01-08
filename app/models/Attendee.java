@@ -6,6 +6,7 @@ import models.crudsiena.SienaSupport;
 
 public class Attendee extends SienaSupport
 {
+
   @Id(Generator.AUTO_INCREMENT)
   public Long id;
 
