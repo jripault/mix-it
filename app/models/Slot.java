@@ -2,8 +2,8 @@ package models;
 
 import models.crudsiena.SienaSupport;
 import play.data.binding.As;
-import play.data.validation.Valid;
 import siena.*;
+import siena.embed.Embedded;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -25,12 +25,13 @@ public class Slot extends SienaSupport
   @As(lang={"*"}, value={"yyyy-MM-dd hh:mm:ss"})
   public Date endTime;
 
+  @Column("kind")
+  public String kind;
 
   static Query<Slot> all()
   {
     return SienaSupport.all(Slot.class).order("startTime");
   }
-
 
   public static List<Slot> findAll()
   {
