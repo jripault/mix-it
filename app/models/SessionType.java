@@ -17,4 +17,10 @@ public class SessionType extends SienaSupport
 
   @Column("name")
   public String name;
+
+  @Override
+  public String toString()
+  {
+    return name;
+  }
 }
