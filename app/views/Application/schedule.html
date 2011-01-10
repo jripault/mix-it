@@ -1,55 +1,55 @@
 #{extends 'main.html' /}
 #{set title:'Programme' /}
 
-<table border="1" style="color:white">
-  <tr>
-    <th>en haut a gauche</th>
-    #{list items:tracks, as:'track'}
-    <th>${track.name}</th>
-    #{/list}
-  </tr>
-  #{list items:slots, as:'slot'}
+<table>
+    <thead>
+        <th/>
+        #{list items:tracks, as:'track'}
+        <th>${track.name}</th>
+        #{/list}
+    </thead>
+    #{list items:slots, as:'slot'}
     <tr>
-      <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
-     %{
+        <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
+        %{
         type = slot.kind;
         if(type == 'Pause')
         {
-      }%
+        }%
         <td align="center" colspan="${tracks.size}">Pause</td>
-      {%
+        {%
         }
         else if(type == 'Keynote')
         {
-      }%
+        }%
         <td align="center" colspan="${tracks.size}">Keynote</td>
-      {%
+        {%
         }
         else if(type == 'Talk')
         {
-       }%
-          #{list items:tracks, as:'track'}
-          <td align="center">
-          %{
+        }%
+        #{list items:tracks, as:'track'}
+        <td align="center">
+            %{
             aSession = track.getSessionForSlot(slot);
             if(aSession)
             {
-          }%
-              #{session theSession:aSession/}
-          %{
+            }%
+            #{session theSession:aSession/}
+            %{
             }
             else
             {
-          }%
-              #{nosession /}
-          %{
+            }%
+            #{nosession /}
+            %{
             }
-          }%
-          </td>
-          #{/list}
-      {%
+            }%
+        </td>
+        #{/list}
+        {%
         }
-      }%
+        }%
 
     </tr>
     #{/list}
