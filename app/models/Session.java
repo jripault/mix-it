@@ -32,7 +32,7 @@ public class Session extends SienaSupport
 
   public String toString()
   {
-    return name + " - " + speaker.toString();
+    return name;
   }
 
   static Query<Session> all()

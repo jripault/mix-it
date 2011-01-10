@@ -18,6 +18,23 @@ public class Track extends SienaSupport
   @Filter("track")
   public Query<Session> sessions;
 
+  public Session getSessionForSlot(Slot slot)
+  {
+    if(slot == null)
+    {
+      return null;
+    }
+
+    for (Session session : sessions.fetch())
+    {
+      if(slot.equals(session.slot))
+      {
+        return session;
+      }
+    }
+    return null;
+  }
+
   public String toString()
   {
     return name;

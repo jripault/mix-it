@@ -11,10 +11,48 @@
   #{list items:slots, as:'slot'}
     <tr>
       <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
+     %{
+        type = slot.kind;
+        if(type == 'Pause')
+        {
+      }%
+        <td align="center" colspan="${tracks.size}">Pause</td>
+      {%
+        }
+        else if(type == 'Keynote')
+        {
+      }%
+        <td align="center" colspan="${tracks.size}">Keynote</td>
+      {%
+        }
+        else if(type == 'Talk')
+        {
+       }%
+          #{list items:tracks, as:'track'}
+          <td align="center">
+          %{
+            aSession = track.getSessionForSlot(slot);
+            if(aSession)
+            {
+          }%
+              #{session theSession:aSession/}
+          %{
+            }
+            else
+            {
+          }%
+              #{nosession /}
+          %{
+            }
+          }%
+          </td>
+          #{/list}
+      {%
+        }
+      }%
 
     </tr>
     #{/list}
 
 </table>
 #{nav/}
-        
