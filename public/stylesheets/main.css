@@ -261,3 +261,24 @@ tbody th {
     padding: 0px 10px;
     border-right: 1px solid #aaa;
 }
+
+/******** sessionDescription *********/
+#desc {
+   text-align:left;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2%;
+}
+
+#desc #name{
+    color: #008C9E;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+
+#speaker #description, #room {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
+}

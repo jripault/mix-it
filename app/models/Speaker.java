@@ -19,6 +19,9 @@ public class Speaker extends SienaSupport
   @NotNull
   public String bio;
 
+  @Column("url_image")
+  public String urlImage;
+
   public String toString()
   {
     return name;
