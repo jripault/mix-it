@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Track.java" afterPath="$PROJECT_DIR$/app/models/Track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nosession.html" afterPath="$PROJECT_DIR$/app/views/tags/nosession.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/session.html" afterPath="$PROJECT_DIR$/app/views/tags/session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
-    </list>
+    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="" />
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,7 +71,7 @@
       <file leaf-file-name="Track.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/Track.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="76" selection-start="634" selection-end="634" vertical-scroll-proportion="0.6458967">
+            <state line="29" column="68" selection-start="485" selection-end="485" vertical-scroll-proportion="0.6200608">
               <folding />
             </state>
           </provider>
@@ -751,7 +744,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Track.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="76" selection-start="634" selection-end="634" vertical-scroll-proportion="0.6458967">
+        <state line="29" column="68" selection-start="485" selection-end="485" vertical-scroll-proportion="0.6200608">
           <folding />
         </state>
       </provider>
