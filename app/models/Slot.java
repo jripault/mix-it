@@ -17,12 +17,10 @@ public class Slot extends SienaSupport
 
   @Column("start_time")
   @DateTime
-  @As(lang={"*"}, value={"yyyy-MM-dd hh:mm:ss"})
   public Date startTime;
 
   @Column("end_time")
   @DateTime
-  @As(lang={"*"}, value={"yyyy-MM-dd hh:mm:ss"})
   public Date endTime;
 
   @Column("kind")
