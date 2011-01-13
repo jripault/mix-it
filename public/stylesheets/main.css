@@ -91,6 +91,22 @@ li {
     font-family: Verdana;
 }
 
+#contact {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#contact a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: #DDD;
+    font-family: Verdana;
+}
+
+#contact a:hover {
+    color: #888;
+}
+
 /******** speakers *******/
 #speaker {
     margin-left: 10%;
@@ -248,4 +264,25 @@ tbody th {
     text-align: right;
     padding: 0px 10px;
     border-right: 1px solid #aaa;
+}
+
+/******** sessionDescription *********/
+#desc {
+   text-align:left;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 2%;
+}
+
+#desc #name{
+    color: #008C9E;
+    font-family: Verdana;
+    font-size: 18px;
+}
+
+
+#speaker #description, #room {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
 }

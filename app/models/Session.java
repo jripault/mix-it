@@ -27,6 +27,9 @@ public class Session extends SienaSupport
   @Column("description")
   public String description;
 
+  @Column("room")
+  public String room;
+
   @Column("type")
   public SessionType type;
 
@@ -43,5 +46,10 @@ public class Session extends SienaSupport
   public static List<Session> findAll()
   {
     return all().fetch();
+  }
+
+  public static Session getSessionById(Long id)
+  {
+    return Session.all().filter("id", id).get();
   }
 }
