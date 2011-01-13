@@ -6,7 +6,8 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #343838; /*  background: url('/public/images/bg-small.png');*/
+    background-color: #343838; 
+    background: url('/public/images/bg-other-small.png');
 }
 
 #main {
@@ -155,6 +156,9 @@ li {
 
 /******* Schedule *******/
 table {
+    height: 80%;
+    width: 80%;
+    margin-left: 10%;    
     font-family: Arial;
     font-size: 15px;
     font-style: normal;
