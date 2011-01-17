@@ -74,6 +74,11 @@ li
   width: 65%;
   margin-left: 1%;
 }
+.logo_small
+{
+  margin-left: 1%;
+  margin-top: 1%;
+}
 
 #links
 {
@@ -201,7 +206,8 @@ li
 #description
 {
   width: 70%;
-  margin-left: 15%
+  margin-left: 15%;
+  margin-top:2%;
 }
 
 #description .question
@@ -209,6 +215,7 @@ li
   font-size: 20px;
   color: #00ADEE;
   margin-bottom: 3px;
+  font-family: Verdana;
 }
 
 #description .reponse
@@ -218,6 +225,7 @@ li
   font-family: Verdana;
   margin-left: 5%;
   margin-bottom: 3%;
+  margin-top:1%;
 }
 
 /******* Schedule *******/
@@ -225,6 +233,7 @@ table
 {
   height: 80%;
   width: 80%;
+  margin-top:2%;
   margin-left: 10%;
   font-family: Arial;
   font-size: 15px;
@@ -255,14 +264,10 @@ thead th:empty
 
 thead :nth-child(2)
 {
-  background-color: #7FD2FF;
-}
-
-thead :nth-child(2)
-{
   -moz-border-radius: 5px 0px 0px 0px;
   -webkit-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
+  background-color: #7FD2FF;
 }
 
 thead :nth-child(3)
@@ -328,6 +333,56 @@ tbody th
   text-align: right;
   padding: 0px 10px;
   border-right: 1px solid #aaa;
+}
+
+tbody td
+{
+ font-family: Verdana;
+  font-size: 13px;
+  text-align: center;
+}
+
+.sessionRow
+{
+  vertical-align:middle;
+}
+
+#session
+{
+ font-family: Verdana;
+  font-size: 16px;
+  text-align: center;
+}
+
+#trackDesc li
+{
+  color: #FFF;
+  margin-left: 8%;
+  line-height: 40px;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#trackDesc #techy
+{
+  color: #7FD2FF;
+}
+#trackDesc #agility
+{
+  color: #E45635;
+}
+#trackDesc #mixy
+{
+  color: #ADD8C6;
+}
+#trackDesc #trendy
+{
+  color: #C3FF68;
+}
+#trackDesc #gamy
+{
+  color: #FBB829;
 }
 
 /******** sessionDescription *********/

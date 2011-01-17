@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Payments.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Schedule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Speakers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Sponsors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nav.html" afterPath="$PROJECT_DIR$/app/views/tags/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iml" afterPath="$PROJECT_DIR$/mix-it.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.ipr" afterPath="$PROJECT_DIR$/mix-it.ipr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tags/smallLogo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/description.html" afterPath="$PROJECT_DIR$/app/views/Application/description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/speakers.html" afterPath="$PROJECT_DIR$/app/views/Application/speakers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/sponsors.html" afterPath="$PROJECT_DIR$/app/views/Application/sponsors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nosession.html" afterPath="$PROJECT_DIR$/app/views/tags/nosession.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/session.html" afterPath="$PROJECT_DIR$/app/views/tags/session.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
@@ -74,60 +70,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Schedule.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Schedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="57" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="64" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-17.653847">
+            <state line="11" column="8" selection-start="228" selection-end="289" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf/routes">
+      <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.15392354">
+            <state line="28" column="44" selection-start="624" selection-end="624" vertical-scroll-proportion="-18.307692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Speakers.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
+      <file leaf-file-name="session.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/session.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="63" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nosession.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/nosession.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="209" column="14" selection-start="2492" selection-end="2492" vertical-scroll-proportion="-142.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="description.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="55" selection-end="68" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speakers.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sponsors.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.035123967">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -141,28 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sponsors.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Sponsors.java">
+      <file leaf-file-name="smallLogo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/smallLogo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="97" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="60" selection-start="1050" selection-end="1050" vertical-scroll-proportion="-25.807692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-12.24">
+            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -183,14 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/Sessions.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/sessionDescription.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/schedule.html" />
-        <option value="$PROJECT_DIR$/conf/application.conf" />
-        <option value="$PROJECT_DIR$/app/models/Slot.java" />
-        <option value="$PROJECT_DIR$/app/models/Account.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Payments.java" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/Programme.java" />
         <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
@@ -199,6 +183,14 @@
         <option value="$PROJECT_DIR$/app/controllers/Schedule.java" />
         <option value="$PROJECT_DIR$/app/controllers/Application.java" />
         <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/views/tags/nosession.html" />
+        <option value="$PROJECT_DIR$/app/views/tags/session.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/schedule.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/tags/smallLogo.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/description.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/speakers.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/sponsors.html" />
       </list>
     </option>
   </component>
@@ -765,71 +757,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/com/paypal/adaptive/core/Receiver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-2.72" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/com/paypal/adaptive/core/ClientDetails.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.07017544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="63" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Attendee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Payments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-12.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="60" selection-start="1050" selection-end="1050" vertical-scroll-proportion="-25.807692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="64" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="63" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
@@ -864,7 +791,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/conf/routes">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.15392354">
+        <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/nosession.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="228" selection-end="289" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="44" selection-start="624" selection-end="624" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="14" selection-start="2492" selection-end="2492" vertical-scroll-proportion="-142.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/smallLogo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="55" selection-end="68" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.035123967">
           <folding />
         </state>
       </provider>

@@ -1,57 +1,65 @@
 #{extends 'main.html' /}
 #{set title:'Programme' /}
 
-<table align="center">
-    <thead>
-        <th/>
-        #{list items:tracks, as:'track'}
-        <th>${track.name}</th>
-        #{/list}
-    </thead>
-    #{list items:slots, as:'slot'}
-    <tr>
-        <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
-        %{
-        type = slot.kind;
-        if(type == 'Pause')
-        {
-        }%
-        <td align="center" colspan="${tracks.size}">Pause</td>
-        {%
-        }
-        else if(type == 'Keynote')
-        {
-        }%
-        <td align="center" colspan="${tracks.size}">Keynote</td>
-        {%
-        }
-        else if(type == 'Talk')
-        {
-        }%
-        #{list items:tracks, as:'track'}
-        <td align="center">
-            %{
-            aSession = track.getSessionForSlot(slot);
-            if(aSession)
-            {
-            }%
-            #{session theSession:aSession/}
-            %{
-            }
-            else
-            {
-            }%
-            #{nosession /}
-            %{
-            }
-            }%
-        </td>
-        #{/list}
-        {%
-        }
-        }%
-
-    </tr>
+<table id="schedule" align="center">
+  <thead>
+  <th/>
+  #{list items:tracks, as:'track'}
+  <th>${track.name}</th>
+  #{/list}
+  </thead>
+  #{list items:slots, as:'slot'}
+  <tr>
+    <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
+    %{
+    type = slot.kind;
+    if(type == 'Pause')
+    {
+    }%
+    <td class="sessionRow" colspan="${tracks.size}">Pause</td>
+    {%
+    }
+    else if(type == 'Keynote')
+    {
+    }%
+    <td class="sessionRow"  align="center" colspan="${tracks.size}">Keynote</td>
+    {%
+    }
+    else if(type == 'Talk')
+    {
+    }%
+    #{list items:tracks, as:'track'}
+    <td class="sessionRow">
+      %{
+      aSession = track.getSessionForSlot(slot);
+      if(aSession)
+      {
+      }%
+      #{session theSession:aSession/}
+      %{
+      }
+      else
+      {
+      }%
+      #{nosession /}
+      %{
+      }
+      }%
+    </td>
     #{/list}
+    {%
+    }
+    }%
+
+  </tr>
+  #{/list}
 </table>
+
+<ul id="trackDesc"  style="list-style-type:none">
+  <li><span id="techy">Techy</span> : Java et son écosystème</li>
+  <li><span id="agility">Agility</span> : Agilité pour débutants et passionnés</li>
+  <li><span id="mixy">Mixy</span> : Le meilleur de l’agilité et des technologies Java</li>
+  <li><span id="trendy">Trendy</span> : Tendances novatrices et avant-gardistes</li>
+  <li><span id="gamy">Gamy</span> : Echanges autour de jeux agiles et de coding dojos</li>
+</ul>
 #{nav/}
