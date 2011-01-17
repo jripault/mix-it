@@ -3,7 +3,7 @@ package controllers;
 import models.SessionType;
 import play.mvc.With;
 
-//@With(Secure.class)
+@With(Secure.class)
 @CRUD.For(SessionType.class)
 public class SessionTypesAdmin extends controllers.CRUD
 {

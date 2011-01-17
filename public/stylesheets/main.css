@@ -228,6 +228,16 @@ li
   margin-top:1%;
 }
 
+#description .reponse a
+{
+  font-size: 15px;
+  color: #DDD;
+  font-family: Verdana;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-top:1%;
+}
+
 /******* Schedule *******/
 table
 {
