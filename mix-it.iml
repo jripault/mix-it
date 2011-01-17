@@ -46,6 +46,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Siena" level="project" />
+    <orderEntry type="library" name="PayPal" level="project" />
   </component>
 </module>
 

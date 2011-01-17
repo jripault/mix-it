@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/datastore" afterPath="$PROJECT_DIR$/tmp/datastore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Sessions.java" afterPath="$PROJECT_DIR$/app/controllers/Sessions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Session.java" afterPath="$PROJECT_DIR$/app/models/Session.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Speaker.java" afterPath="$PROJECT_DIR$/app/models/Speaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Track.java" afterPath="$PROJECT_DIR$/app/models/Track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/sessionDescription.html" afterPath="$PROJECT_DIR$/app/views/Application/sessionDescription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/speakers.html" afterPath="$PROJECT_DIR$/app/views/Application/speakers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Payments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Schedule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Speakers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Sponsors.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.java" afterPath="$PROJECT_DIR$/app/controllers/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nav.html" afterPath="$PROJECT_DIR$/app/views/tags/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/session.html" afterPath="$PROJECT_DIR$/app/views/tags/session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/application.conf" afterPath="$PROJECT_DIR$/conf/application.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iml" afterPath="$PROJECT_DIR$/mix-it.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.ipr" afterPath="$PROJECT_DIR$/mix-it.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
@@ -77,7 +77,16 @@
       <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+            <state line="19" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schedule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Schedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="57" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,37 +94,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="speakers.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.8846154">
+            <state line="13" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Slot.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="758" selection-end="758" vertical-scroll-proportion="0.5301811">
+            <state line="27" column="64" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-17.653847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/application.conf">
+      <file leaf-file-name="routes" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/routes">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="51" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+            <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.15392354">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sessions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Sessions.java">
+      <file leaf-file-name="Speakers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="233" selection-end="242" vertical-scroll-proportion="0.0">
+            <state line="14" column="63" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,28 +132,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Session.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Session.java">
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="47" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
+            <state line="5" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Attendee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Attendee.java">
+      <file leaf-file-name="Sponsors.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Sponsors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="49" selection-start="5014" selection-end="5014" vertical-scroll-proportion="0.0">
+            <state line="7" column="97" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,16 +153,16 @@
       <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="70" selection-start="686" selection-end="686" vertical-scroll-proportion="-18.307692">
+            <state line="44" column="60" selection-start="1050" selection-end="1050" vertical-scroll-proportion="-25.807692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessionDescription.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/sessionDescription.html">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="59" selection-end="63" vertical-scroll-proportion="-1.3076923">
+            <state line="45" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-12.24">
               <folding />
             </state>
           </provider>
@@ -183,22 +183,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/views/tags/nosession.html" />
-        <option value="$PROJECT_DIR$/app/models/Track.java" />
-        <option value="$PROJECT_DIR$/app/models/Speaker.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/speakers.html" />
-        <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/session.html" />
-        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
-        <option value="$PROJECT_DIR$/app/views/tags/session.html" />
-        <option value="$PROJECT_DIR$/app/models/Session.java" />
         <option value="$PROJECT_DIR$/app/controllers/Sessions.java" />
         <option value="$PROJECT_DIR$/app/views/Application/sessionDescription.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/Application/schedule.html" />
         <option value="$PROJECT_DIR$/conf/application.conf" />
         <option value="$PROJECT_DIR$/app/models/Slot.java" />
+        <option value="$PROJECT_DIR$/app/models/Account.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Payments.java" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Programme.java" />
+        <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Speakers.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Sponsors.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Schedule.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Application.java" />
+        <option value="$PROJECT_DIR$/conf/routes" />
       </list>
     </option>
   </component>
@@ -249,7 +249,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -435,10 +434,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -492,6 +487,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,8 +504,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -552,6 +548,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="" />
@@ -585,24 +599,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" />
@@ -620,14 +616,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -654,6 +642,25 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -698,7 +705,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -708,11 +714,12 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22441365" sideWeight="0.6709109" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2228145" sideWeight="0.6709109" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -758,118 +765,106 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
+    <entry file="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/com/paypal/adaptive/core/Receiver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="-2.72" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
+    <entry file="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/com/paypal/adaptive/core/ClientDetails.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="766" selection-end="766" vertical-scroll-proportion="-15.038462">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.07017544" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
+    <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="106" selection-start="372" selection-end="372" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="56" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="63" selection-start="583" selection-end="583" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Attendee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Payments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="261" selection-end="261" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
+        <state line="4" column="38" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="3" column="13" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Session.java">
+    <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="47" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Sessions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="233" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/sessionDescription.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="59" selection-end="63" vertical-scroll-proportion="-1.3076923">
+        <state line="13" column="40" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="49" selection-start="5014" selection-end="5014" vertical-scroll-proportion="0.0">
+        <state line="45" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-12.24">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="686" selection-end="686" vertical-scroll-proportion="-18.307692">
+        <state line="44" column="60" selection-start="1050" selection-end="1050" vertical-scroll-proportion="-25.807692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
+    <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="51" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+        <state line="27" column="64" selection-start="1313" selection-end="1313" vertical-scroll-proportion="-17.653847">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Slot.java">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="758" selection-end="758" vertical-scroll-proportion="0.5301811">
+        <state line="5" column="29" selection-start="247" selection-end="247" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="63" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Sponsors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="97" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Schedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="3" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.15392354">
           <folding />
         </state>
       </provider>
@@ -932,7 +927,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -940,7 +934,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>CrudSiena</last-edited>
+          <last-edited>PayPal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

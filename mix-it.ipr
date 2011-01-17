@@ -298,6 +298,13 @@
       <JAVADOC />
       <SOURCES />
     </library>
+    <library name="PayPal">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
     <library name="Siena">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/../play-1.1/modules/siena-1.3/lib" />

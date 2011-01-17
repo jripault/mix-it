@@ -7,6 +7,10 @@
 
 # Home page
 GET     /                                       Application.index
+GET     /description                            Application.description
+GET     /programme                              Schedule.index
+GET     /sponsors                              Sponsors.index
+GET     /speakers                              Speakers.index
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
