@@ -1,35 +1,49 @@
 #{extends 'main.html' /}
 #{set title:'mix-it' /}
 <script type="text/javascript">
-  $(document).ready(function()
-  {
-    $("#all").hide();
-    $("#all").fadeIn(5000, 0.0);
-  });
+    var tags = ["techy","trendy","mixy","agily","gamy"];
+    $(document).ready(function() {
+        $("#all").hide();
+        $("#all").fadeIn(5000, 0.0);
+        $('#tag').hide();
+        boucle();
+        function boucle() {
+            console.log('boucle')
+            $('#tag').empty();
+            $('#tag').append(nextTag());
+            $('#tag').fadeIn(2000, function() {
+                $('#tag').fadeOut(2000, boucle)
+            });
+            function nextTag() {
+                var i = Math.floor(Math.random() * 100) % 80;
+                $('#tag').css("margin-left", i + "%");
+                i = Math.floor(Math.random() * 100) % 80;
+                $('#tag').css("margin-top", i + "%");
+                i = Math.floor(Math.random() * 5) % 5;
+                return tags[i];
+            }
+        }
+    });
 </script>
+<div id="tag"></div>
 <div id="all">
-  <div id="main">
-    <h1><img class="logo" src="/public/images/logo.png" alt="MIX IT"></h1>
+    <div id="main">
+        <h1><img class="logo" src="/public/images/logo.png" alt="MIX IT"></h1>
 
-    <h2>... DES IDEES POUR TOUT DE SUITE !</h2>
-    <ul style="list-style-type:none">
-      <li><span class="phonetic">[mix-it]</span><span class="def"> Mélanger des acteurs de différents domaines</span>
-      </li>
-      <li><span class="phonetic">[mix IT]</span><span class="def"> Plusieurs technologies, méthodes & outils</span>
-      </li>
-      <li><span class="phonetic">[mixité]</span><span class="def"> Mélanger les compétences et le niveau</span>
-      </li>
-    </ul>
-  </div>
-  <div id="subtitle">
-    <h3>Au cours d’une journée participative, venez découvrir, échanger et jouer autour de ces valeurs, méthodes et technologies.
-Mix-IT est l’aboutissement de la collaboration entre le <a href="http://www.lyonjug.org" target="_blank">Lyon JUG</a> et le <a href="http://clubagile.org/" target="_blank">Club Agile Rhône-Alpes</a> qui s’unissent pour vous proposer une journée exceptionnelle autour de l'agilité, des technologies Java/JEE et des tendances novatrices.
-    </h3>
-    <h4>La conférence se déroulera dans les locaux de l'Epitech Lyon (à 5min. de la gare Part-Dieu)</h4>
-  </div>
-  #{nav/}
-  <div id="links">
-    <a href="http://twitter.com/mixIT_Lyon"><img class="image" src="/public/images/icon-twitter.png" alt="twitter"/></a>
-    <a type="application/atom+xml" href="http://search.twitter.com/search.atom?q=%23mixIT_lyon"><img class="image" src="/public/images/icon-rss.png" alt="rss"/></a>
-  </div>
+        <h2>... DES IDEES POUR TOUT DE SUITE !</h2>
+
+        <div class="def"> 25 speakers ... Mardi 5 Avril ... 200 participants !</div>
+        <div id="subtitle">
+            <h4>Un évènement proposé par le <a href="http://www.lyonjug.org" target="_blank">Lyon
+                JUG</a> et le <a href="http://clubagile.org/" target="_blank">Club Agile Rhône-Alpes</a>
+            </h4>
+        </div>
+    </div>
+    #{nav/}
+    <div id="links">
+        <a href="http://twitter.com/mixIT_Lyon"><img class="image" src="/public/images/icon-twitter.png" alt="twitter"/></a>
+        <a type="application/atom+xml" href="http://search.twitter.com/search.atom?q=%23mixIT_lyon">
+            <img class="image" src="/public/images/icon-rss.png" alt="rss"/>
+        </a>
+    </div>
 </div>

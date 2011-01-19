@@ -1,419 +1,374 @@
-html, body
-{
-  width: 100%;
+html, body {
+    width: 100%;
 }
 
-body
-{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #343838;
-  background: url('/public/images/bg-other-small.png');
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #343838;
+    background: url('/public/images/bg-other-small.png');
 }
 
-#main
-{
-  width: 80%;
-  margin-top: 8%;
-  font-family: 'mixit-font-bold';
+#main {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    font-family: 'mixit-font-bold', Verdana;
 }
 
 /********* text **********/
 
-h1
-{
-  text-align: center;
-  color: #00ADEE;
-  font-size: 120px;
+h1 {
+    text-align: center;
+    color: #00ADEE;
+    font-size: 120px;
 }
 
-h2
-{
-  text-align: right;
-  margin-right: 10%;
-  margin-top: -8%;
-  margin-bottom: 6%;
-  font-size: 28px;
-  color: #00ADEE;
+h2 {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -8%;
+    margin-bottom: 6%;
+    font-size: 28px;
+    color: #00ADEE;
 }
 
-h3
-{
-  text-align: left;
-  margin-left: 9%;
-  margin-right: 10%;
-  font-size: 20px;
-  color: #FFF;
+h3 {
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 10%;
+    font-size: 12px;
+    color: #FFF;
 }
 
-h4
-{
-  text-align: left;
-  margin-left: 9%;
-  margin-right: 10%;
-  margin-bottom: 6%;
-  font-size: 20px;
-  color: #FFF;
+h4 {
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 10%;
+    font-size: 14px;
+    color: #FFF;
 }
 
-li
-{
-  margin-left: 8%;
-  line-height: 40px;
+li {
+    margin-left: 10%;
+    line-height: 40px;
 }
 
-.image
-{
-  width: 40px;
-  margin-left: 1%;
+.image {
+    width: 40px;
+    margin-left: 1%;
 }
 
-.logo
-{
-  width: 65%;
-  margin-left: 1%;
-}
-.logo_small
-{
-  margin-left: 1%;
-  margin-top: 1%;
+.logo {
+    width: 65%;
 }
 
-#links
-{
-  text-align: right;
-  width: 90%; /*margin-top:4%;*/
+.logo_small {
+    margin-left: 1%;
+    margin-top: 1%;
 }
 
-#subtitle a
-{
- color: #00ADEE;
+#links {
+    text-align: right;
+    width: 90%; /*margin-top:4%;*/
+}
+
+#subtitle {
+    font-family: Verdana;
+}
+
+#subtitle a {
+    color: #00ADEE;
 }
 
 /******** font *******/
 @font-face
 {
-  font-family: 'mixit-font-bold'
+    font-family: 'mixit-font-bold'
 ;
-  src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.eot')
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.eot')
 ;
-  src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.woff')
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.woff')
 ;
-  src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.otf')
+    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.otf')
 ;
 }
 
-.phonetic
-{
-  font-family: Verdana;
-  font-size: 20px; /*color: #00B4CC*/
-  color: #990000;
+.def {
+    font-family: 'mixit-font-bold', Verdana; /*color: #00ADEE;*/
+    color: #FFF;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom:5%;
 }
 
-.def
-{
-  font-family: Verdana;
-  color: #00ADEE;
-  font-size: 18px
+#tag{
+    position:absolute;
+    font-family: 'mixit-font-bold', Verdana;
+    color: #FFF;
+    font-size: 35px;
 }
 
 /******** nav **********/
-#nav
-{
-  text-align: center;
-  margin-top: 6%;
+#nav {
+    text-align: center;
+    margin-top: 6%;
 }
 
-#nav a
-{
-  margin-left: 3%;
-  text-decoration: none;
-  color: #DDD;
-  font-family: Verdana;
+#nav a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: #DDD;
+    font-family: Verdana;
 }
 
-#contact
-{
-  margin-top: 25px;
-  text-align: center;
+#contact {
+    margin-top: 25px;
+    text-align: center;
 }
 
-#contact a
-{
-  margin-left: 3%;
-  text-decoration: none;
-  color: #DDD;
-  font-family: Verdana;
+#contact a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: #DDD;
+    font-family: Verdana;
 }
 
-#contact a:hover
-{
-  color: #888;
+#contact a:hover {
+    color: #888;
 }
 
 /******** speakers *******/
-#speaker
-{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+#speaker {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
-#speaker #name
-{
-  color: #008C9E;
-  font-family: Verdana;
-  font-size: 18px;
+#speaker #name {
+    color: #008C9E;
+    font-family: Verdana;
+    font-size: 18px;
 }
 
-#speaker #bio
-{
-  color: #DDD;
-  font-family: Verdana;
-  font-size: 15px;
+#speaker #bio {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
 }
 
 /******** sessions *******/
-#session
-{
-  margin-left: 10%;
-  margin-top: 2%;
+#session {
+    margin-left: 10%;
+    margin-top: 2%;
 }
 
-#session #name
-{
-  color: #008C9E;
-  font-family: Verdana;
-  font-size: 18px;
+#session #name {
+    color: #008C9E;
+    font-family: Verdana;
+    font-size: 18px;
 }
 
-#session #heure
-{
-  color: #DDD;
-  font-family: Verdana;
-  font-size: 15px;
+#session #heure {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
 }
 
-#session #infos
-{
-  color: #DDD;
-  font-family: Verdana;
-  font-size: 15px;
+#session #infos {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
 }
 
 /******* description *****/
-#description
-{
-  width: 70%;
-  margin-left: 15%;
-  margin-top:2%;
+#description {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 
-#description .question
-{
-  font-size: 20px;
-  color: #00ADEE;
-  margin-bottom: 3px;
-  font-family: Verdana;
+#description .question {
+    font-size: 20px;
+    color: #00ADEE;
+    margin-bottom: 3px;
+    font-family: Verdana;
 }
 
-#description .reponse
-{
-  font-size: 15px;
-  color: #DDD;
-  font-family: Verdana;
-  margin-left: 5%;
-  margin-bottom: 3%;
-  margin-top:1%;
+#description .reponse {
+    font-size: 15px;
+    color: #DDD;
+    font-family: Verdana;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
 
-#description .reponse a
-{
-  font-size: 15px;
-  color: #DDD;
-  font-family: Verdana;
-  margin-left: 5%;
-  margin-bottom: 3%;
-  margin-top:1%;
+#description .reponse a {
+    font-size: 15px;
+    color: #DDD;
+    font-family: Verdana;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 1%;
 }
 
 /******* Schedule *******/
-table
-{
-  height: 80%;
-  width: 80%;
-  margin-top:2%;
-  margin-left: 10%;
-  font-family: Arial;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  line-height: 1.7em;
-  text-align: center;
-  border-collapse: collapse;
+table {
+    height: 80%;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1.7em;
+    text-align: center;
+    border-collapse: collapse;
 }
 
-thead th
-{
-  padding: 6px 10px;
-  text-transform: uppercase;
-  color: #444;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #fff;
-  border-bottom: 5px solid #444;
+thead th {
+    padding: 6px 10px;
+    text-transform: uppercase;
+    color: #444;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #fff;
+    border-bottom: 5px solid #444;
 }
 
-thead th:empty
-{
-  background: transparent;
-  border: none;
+thead th:empty {
+    background: transparent;
+    border: none;
 }
 
-thead :nth-child(2)
-{
-  -moz-border-radius: 5px 0px 0px 0px;
-  -webkit-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: #7FD2FF;
+thead :nth-child(2) {
+    -moz-border-radius: 5px 0px 0px 0px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #7FD2FF;
 }
 
-thead :nth-child(3)
-{
-  background-color: #E45635;
+thead :nth-child(3) {
+    background-color: #E45635;
 }
 
-thead :nth-child(4)
-{
-  background-color: #ADD8C6;
+thead :nth-child(4) {
+    background-color: #ADD8C6;
 }
 
-thead :nth-child(5)
-{
-  background-color: #C3FF68;
+thead :nth-child(5) {
+    background-color: #C3FF68;
 }
 
-thead :nth-child(6)
-{
-  background-color: #FBB829;
+thead :nth-child(6) {
+    background-color: #FBB829;
 }
 
-thead :nth-child(6)
-{
-  -moz-border-radius: 0px 5px 0px 0px;
-  -webkit-border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
+thead :nth-child(6) {
+    -moz-border-radius: 0px 5px 0px 0px;
+    -webkit-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-tbody td:nth-child(even)
-{
-  background-color: #444;
-  color: #222;
-  border-bottom: 1px solid #444;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(189, 189, 189)), color-stop(0.7, rgb(224, 224, 224)));
-  background: -moz-linear-gradient(center bottom, rgb(189, 189, 189) 39%, rgb(224, 224, 224) 70%);
-  text-shadow: 1px 1px 1px #fff;
+tbody td:nth-child(even) {
+    background-color: #444;
+    color: #222;
+    border-bottom: 1px solid #444;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(189, 189, 189)), color-stop(0.7, rgb(224, 224, 224)));
+    background: -moz-linear-gradient(center bottom, rgb(189, 189, 189) 39%, rgb(224, 224, 224) 70%);
+    text-shadow: 1px 1px 1px #fff;
 }
 
-tbody td:nth-child(odd)
-{
-  background-color: #555;
-  color: #F0F0F0;
-  border-bottom: 1px solid #444;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(85, 85, 85)), color-stop(0.7, rgb(105, 105, 105)));
-  background: -moz-linear-gradient(center bottom, rgb(85, 85, 85) 39%, rgb(105, 105, 105) 70%);
-  text-shadow: 1px 1px 1px #000;
+tbody td:nth-child(odd) {
+    background-color: #555;
+    color: #F0F0F0;
+    border-bottom: 1px solid #444;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(85, 85, 85)), color-stop(0.7, rgb(105, 105, 105)));
+    background: -moz-linear-gradient(center bottom, rgb(85, 85, 85) 39%, rgb(105, 105, 105) 70%);
+    text-shadow: 1px 1px 1px #000;
 }
 
-tbody td:nth-last-child(1)
-{
-  border-right: 1px solid #222;
+tbody td:nth-last-child(1) {
+    border-right: 1px solid #222;
 }
 
-tbody th
-{
-  color: #F0F0F0;
-  font-family: Verdana;
-  font-size: 15px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(85, 85, 85)), color-stop(0.7, rgb(105, 105, 105)));
-  background: -moz-linear-gradient(center bottom, rgb(85, 85, 85) 39%, rgb(105, 105, 105) 70%);
-  border-bottom: 1px solid #444;
-  text-align: right;
-  padding: 0px 10px;
-  border-right: 1px solid #aaa;
+tbody th {
+    color: #F0F0F0;
+    font-family: Verdana;
+    font-size: 15px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.39, rgb(85, 85, 85)), color-stop(0.7, rgb(105, 105, 105)));
+    background: -moz-linear-gradient(center bottom, rgb(85, 85, 85) 39%, rgb(105, 105, 105) 70%);
+    border-bottom: 1px solid #444;
+    text-align: right;
+    padding: 0px 10px;
+    border-right: 1px solid #aaa;
 }
 
-tbody td
-{
- font-family: Verdana;
-  font-size: 13px;
-  text-align: center;
+tbody td {
+    font-family: Verdana;
+    font-size: 13px;
+    text-align: center;
 }
 
-.sessionRow
-{
-  vertical-align:middle;
+.sessionRow {
+    vertical-align: middle;
 }
 
-#session
-{
- font-family: Verdana;
-  font-size: 16px;
-  text-align: center;
+#session {
+    font-family: Verdana;
+    font-size: 16px;
+    text-align: center;
 }
 
-#trackDesc li
-{
-  color: #FFF;
-  margin-left: 8%;
-  line-height: 40px;
-  font-family: Verdana;
-  font-size: 15px;
-  font-weight: bold;
+#trackDesc li {
+    color: #FFF;
+    margin-left: 8%;
+    line-height: 40px;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-#trackDesc #techy
-{
-  color: #7FD2FF;
+#trackDesc #techy {
+    color: #7FD2FF;
 }
-#trackDesc #agility
-{
-  color: #E45635;
+
+#trackDesc #agility {
+    color: #E45635;
 }
-#trackDesc #mixy
-{
-  color: #ADD8C6;
+
+#trackDesc #mixy {
+    color: #ADD8C6;
 }
-#trackDesc #trendy
-{
-  color: #C3FF68;
+
+#trackDesc #trendy {
+    color: #C3FF68;
 }
-#trackDesc #gamy
-{
-  color: #FBB829;
+
+#trackDesc #gamy {
+    color: #FBB829;
 }
 
 /******** sessionDescription *********/
-#desc
-{
-  text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
+#desc {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 
-#desc #name
-{
-  color: #008C9E;
-  font-family: Verdana;
-  font-size: 18px;
+#desc #name {
+    color: #008C9E;
+    font-family: Verdana;
+    font-size: 18px;
 }
 
-#speaker #description, #room
-{
-  color: #DDD;
-  font-family: Verdana;
-  font-size: 15px;
+#speaker #description, #room {
+    color: #DDD;
+    font-family: Verdana;
+    font-size: 15px;
 }
