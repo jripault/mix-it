@@ -100,11 +100,11 @@ li {
     color: #FFF;
     font-size: 38px;
     text-align: center;
-    margin-bottom:5%;
+    margin-bottom: 5%;
 }
 
-#tag{
-    position:absolute;
+#tag {
+    position: absolute;
     font-family: 'mixit-font-bold', Verdana;
     color: #FFF;
     font-size: 35px;
@@ -214,11 +214,6 @@ li {
     margin-top: 1%;
 }
 
-.reponse span{
-  font-weight:bold;
-  text-decoration:none;
-  border-bottom:1px dotted;
-}
 
 /******* Schedule *******/
 table {
@@ -377,4 +372,40 @@ tbody td {
     color: #DDD;
     font-family: Verdana;
     font-size: 15px;
+}
+
+.tooltip {
+    border-bottom: 1px dotted;
+    outline: none;
+    cursor: help;
+    text-decoration: none;
+    position: relative;
+    font-weight:bold;
+}
+
+.tooltip span {
+    margin-left: -999em;
+    position: absolute;
+}
+
+.tooltip:hover span {
+    border-radius: 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute;
+    left: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    width: 200px;
+}
+.classic {
+    padding: 0.8em 1em;
+    background: #FFFFAA;
+    border: 1px solid #FFAD33;
+    color:black;
 }
