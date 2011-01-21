@@ -1,5 +1,5 @@
 ﻿#{extends 'main.html' /}
-#{set title:'mix-it' /}
+#{set title:'Mix-IT' /}
 <script type="text/javascript">
     var tags = ["techy","trendy","mixy","agily","gamy"];
     $(document).ready(function() {
@@ -10,7 +10,8 @@
         function boucle() {
             console.log('boucle')
             $('#tag').empty();
-            $('#tag').append(nextTag());
+            var tagName = nextTag();
+            $('#tag').append(tagName);
             $('#tag').fadeIn(2000, function() {
                 $('#tag').fadeOut(2000, boucle)
             });
