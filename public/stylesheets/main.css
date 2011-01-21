@@ -214,6 +214,12 @@ li {
     margin-top: 1%;
 }
 
+.reponse span{
+  font-weight:bold;
+  text-decoration:none;
+  border-bottom:1px dotted;
+}
+
 /******* Schedule *******/
 table {
     height: 80%;
@@ -333,23 +339,23 @@ tbody td {
     font-weight: bold;
 }
 
-#trackDesc #techy {
+#techy {
     color: #7FD2FF;
 }
 
-#trackDesc #agility {
+#agility {
     color: #E45635;
 }
 
-#trackDesc #mixy {
+#mixy {
     color: #ADD8C6;
 }
 
-#trackDesc #trendy {
+#trendy {
     color: #C3FF68;
 }
 
-#trackDesc #gamy {
+#gamy {
     color: #FBB829;
 }
 
