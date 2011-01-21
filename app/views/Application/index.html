@@ -4,27 +4,27 @@
     var tags = ["techy","trendy","mixy","agily","gamy"];
     $(document).ready(function() {
         $("#all").hide();
-        $("#all").fadeIn(5000, 0.0);
-        $('#tag').hide();
-        boucle();
-        function boucle() {
-            console.log('boucle')
-            $('#tag').empty();
-            var tagName = nextTag();
-            $('#tag').append(tagName);
-            $('#tag').fadeIn(2000, function() {
-                $('#tag').fadeOut(2000, boucle)
-            });
-            function nextTag() {
-                var i = Math.floor(Math.random() * 100) % 80;
-                $('#tag').css("margin-left", i + "%");
-                i = Math.floor(Math.random() * 100) % 80;
-                $('#tag').css("margin-top", i + "%");
-                i = Math.floor(Math.random() * 5) % 5;
-                return tags[i];
-            }
-        }
-    });
+        $("#all").fadeIn(5000, function() {
+			$('#tag').hide();
+			boucle();
+			function boucle() {
+				console.log('boucle')
+				$('#tag').empty();
+				$('#tag').append(nextTag());
+				$('#tag').fadeIn(2000, function() {
+					$('#tag').fadeOut(2000, boucle)
+				});
+				function nextTag() {
+					var i = Math.floor(Math.random() * 100) % 80;
+					$('#tag').css("margin-left", i + "%");
+					i = Math.floor(Math.random() * 100) % 80;
+					$('#tag').css("margin-top", i + "%");
+					i = Math.floor(Math.random() * 5) % 5;
+					return tags[i];
+				}
+			}
+		})
+	});
 </script>
 <div id="tag"></div>
 <div id="all">
