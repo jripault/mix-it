@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/description.html" afterPath="$PROJECT_DIR$/app/views/Application/description.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.ipr" afterPath="$PROJECT_DIR$/mix-it.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
     </list>
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,19 +63,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="description.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="description.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="61" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.9230769">
+            <state line="16" column="44" selection-start="476" selection-end="476" vertical-scroll-proportion="0.42170542">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="68" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.5067064">
+            <state line="206" column="68" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -182,8 +182,8 @@
         <option value="$PROJECT_DIR$/app/controllers/Security.java" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/views/Application/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/description.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/Application/description.html" />
       </list>
     </option>
   </component>
@@ -377,11 +377,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Wrapping and Braces" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -587,7 +587,7 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">C:\Users\samildanach\AppData\Roaming\Subversion</configuration>
+    <configuration useDefault="true">C:\Documents and Settings\Julien RIPAULT\Application Data\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -764,16 +764,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="61" selection-start="111" selection-end="111" vertical-scroll-proportion="-3.9230769">
+        <state line="206" column="68" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/views/Application/description.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="68" selection-start="3074" selection-end="3074" vertical-scroll-proportion="0.5067064">
+        <state line="16" column="44" selection-start="476" selection-end="476" vertical-scroll-proportion="0.42170542">
           <folding />
         </state>
       </provider>
@@ -791,6 +791,11 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions />
         </settings>
       </state>
       <state key="FacetStructureConfigurable.UI">
@@ -836,6 +841,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -843,7 +849,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>PayPal</last-edited>
+          <last-edited>CrudSiena</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -851,6 +857,11 @@
               </list>
             </option>
           </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions />
         </settings>
       </state>
     </states>
