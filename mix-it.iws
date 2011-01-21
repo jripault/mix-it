@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/index.html" afterPath="$PROJECT_DIR$/app/views/Application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
     </list>
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,7 +127,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="114" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.81832063">
+            <state line="38" column="92" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.53282446">
               <folding />
             </state>
           </provider>
@@ -765,7 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="114" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.81832063">
+        <state line="38" column="92" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.53282446">
           <folding />
         </state>
       </provider>
