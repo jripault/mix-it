@@ -72,7 +72,7 @@ li {
 
 #links {
     text-align: right;
-    width: 90%; /*margin-top:4%;*/
+    width: 90%;
 }
 
 #subtitle {
@@ -86,18 +86,12 @@ li {
 /******** font *******/
 @font-face
 {
-    font-family: 'mixit-font-bold'
-;
-    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.eot')
-;
-    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.woff')
-;
-    src: url('http://www.carvalho-bernau.com/jlg/assets/jeanlucweb-bold.otf')
-;
+    font-family: 'mixit-font-bold';
+    src: url('/public/stylesheets/jeanlucweb-bold.otf');
 }
 
 .def {
-    font-family: 'mixit-font-bold', Verdana; /*color: #00ADEE;*/
+    font-family: 'mixit-font-bold', Verdana;
     color: #FFF;
     font-size: 38px;
     text-align: center;
@@ -107,7 +101,7 @@ li {
 #tag {
     position: absolute;
     font-family: 'mixit-font-bold', Verdana;
-    color: #FFF;
+    color: #777;
     font-size: 35px;
 }
 
