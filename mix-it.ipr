@@ -293,25 +293,18 @@
   <component name="libraryTable">
     <library name="CrudSiena">
       <CLASSES>
-        <root url="jar://$PROJECT_DIR$/../play-1.1/modules/crudsiena-1.3/lib/play-crudsiena.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="PayPal">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/lib/PayPalXGAEToolkit-0.1-dev.jar!/" />
+        <root url="jar://$PLAY_HOME$/modules/crudsiena-1.5/lib/play-crudsiena.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
     </library>
     <library name="Siena">
       <CLASSES>
-        <root url="file://$PROJECT_DIR$/../play-1.1/modules/siena-1.3/lib" />
+        <root url="file://$PLAY_HOME$/modules/siena-1.3/lib" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/../play-1.1/modules/siena-1.3/lib" recursive="false" />
+      <jarDirectory url="file://$PLAY_HOME$/modules/siena-1.3/lib" recursive="false" />
     </library>
   </component>
 </project>

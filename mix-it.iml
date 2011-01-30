@@ -6,12 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
-    <content url="file://$MODULE_DIR$/../play-1.1/modules/crudsiena-1.3">
-      <sourceFolder url="file://$MODULE_DIR$/../play-1.1/modules/crudsiena-1.3/app" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../play-1.1/modules/crudsiena-1.3/src" isTestSource="false" />
+    <content url="file://$PLAY_HOME$/modules/crudsiena-1.5">
+      <sourceFolder url="file://$PLAY_HOME$/modules/crudsiena-1.5/app" isTestSource="false" />
+      <sourceFolder url="file://$PLAY_HOME$/modules/crudsiena-1.5/src" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../play-1.1/modules/secure">
-      <sourceFolder url="file://$MODULE_DIR$/../play-1.1/modules/secure/app" isTestSource="false" />
+    <content url="file://$PLAY_HOME$/modules/secure">
+      <sourceFolder url="file://$PLAY_HOME$/modules/secure/app" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -29,24 +29,23 @@
     <orderEntry type="module-library">
       <library name="PlayFramework Dependecies">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../play-1.1/framework/lib" />
+          <root url="file://$PLAY_HOME$/framework/lib" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../play-1.1/framework/lib" recursive="false" />
+        <jarDirectory url="file://$PLAY_HOME$/framework/lib" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../play-1.1/framework/play.jar!/" />
+          <root url="jar://$PLAY_HOME$/framework/play.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="library" name="Siena" level="project" />
-    <orderEntry type="library" name="PayPal" level="project" />
   </component>
 </module>
 

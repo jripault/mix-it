@@ -12,6 +12,12 @@ GET     /programme                              Schedule.index
 GET     /sponsors                              Sponsors.index
 GET     /speakers                              Speakers.index
 
+# JSon
+GET     /speakers/json                              Speakers.listAsJson
+GET     /sessions/json                              Sessions.listAsJson
+GET     /tracks/json                              Tracks.listAsJson
+GET     /tracks/{id}/json                              Tracks.listSessionsAsJson
+
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 

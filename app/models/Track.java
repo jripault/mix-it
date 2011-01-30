@@ -52,5 +52,10 @@ public class Track extends SienaSupport
   {
     return all().fetch();
   }
+
+  public static Track find(Long id)
+  {
+    return all().filter("id", id).get();
+  }
 }
 

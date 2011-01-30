@@ -14,4 +14,10 @@ public class Speakers extends Controller
     renderArgs.put("speakers", speakers);
     renderTemplate("Application/speakers.html");
   }
+
+  public static void listAsJson()
+  {
+    List<Speaker> speakers = Speaker.findAll();
+    renderJSON(speakers);
+  }
 }
