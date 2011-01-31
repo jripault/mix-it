@@ -1,17 +1,47 @@
 #{extends 'main.html' /}
 #{set title:'Speakers' /}
 #{smallLogo/}
-<div id="speakers">
-  #{list items:speakers, as:'speaker'}
-  <div id="speaker">
-    <img src="${speaker.urlImage}" width="100px"/>
+<script type="text/javascript">
+	$(document).ready(function() {
+		boucle();
+		function boucle() {
+			$('#one').empty();
+			$('#one').append(function(index, html) {
+				return $('.speaker').clone()[Math.floor(Math.random() * $('.speaker').length)];
+			});
+			$('#one').fadeIn(5000, function() {
+				$('#one').fadeOut(5000, boucle)
+			});
+		};
+	});
+</script>
 
-    <div id="name">${speaker.firstName} ${speaker.lastName}</div>
-    <div id="bio">${speaker.bio}</div><br/>
-    #{list items:speaker.findSessionsBySpeaker(), as:'session'}
-    <div class="session">Session: ${session.name}</div>
-    #{/list}
-  </div>
+<div id="speakers">
+	<div id="one" style="height:200px"></div>
+		<div id="list">
+		#{list items:speakers, as:'speaker'}
+		<div class="speaker">
+			<img class="photo" src="${speaker.urlImage}"/>
+			<div class="name">${speaker.firstName} ${speaker.lastName}</div>
+			<div id="sessions">
+				#{list items:speaker.findSessionsBySpeaker(), as:'session'} 
+				<div class="session" style="background-color:${session.getColor(session.id)}">${session.name}</div>
+				#{/list}
+			</div>
+			<div class="bio">${speaker.bio}</div><br/>
+			<div class="links">
+				#{if speaker.twitter}
+				<a href="${speaker.twitter}"><img src="/public/images/twitter.png" alt="twitter"/></a>
+				#{/if}
+				#{if speaker.blog}
+				<a href="${speaker.blog}"><img src="/public/images/blogger.png" alt="blogger"/></a>
+				#{/if}
+				#{if speaker.linkedin}
+				<a href="${speaker.linkedin}"><img src="/public/images/linkedin.png" alt="linkedin"/></a>
+				#{/if}
+			</div>
+	  </div>
   #{/list}
+  </div>
 </div>
 #{nav/}

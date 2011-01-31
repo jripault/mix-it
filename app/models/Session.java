@@ -69,4 +69,11 @@ public class Session extends SienaSupport
   {
     return Session.all().filter("id", id).get();
   }
+  
+  public static String getColor(Long id)
+  {
+    Session session =  all().filter("id", id).get();
+	Track track = Track.find(session.track.id);
+	return track.color;
+  }
 }

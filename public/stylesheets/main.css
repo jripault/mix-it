@@ -161,42 +161,134 @@ li
 /******** speakers *******/
 #speakers
 {
-  border: #696969;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-#speaker
-{
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
   margin-bottom: 2%;
-  height: 100px;
 }
 
-#speaker img
+#speakers #list
 {
-  float: left;
+  border: 2px solid #696969;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  overflow:auto; 
+  height:400px;
 }
 
-#speaker #name
+.speaker
 {
-  color: #008C9E;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height:200px;
+}
+
+.speaker .name
+{
+  color: #00ADEE;
   font-family: Verdana;
   font-size: 18px;
-  margin-left: 10%;
+  margin-left: 11%;
 }
 
-#speaker #bio, .session
+.speaker .photo
+{
+	float: left;
+	margin-right: 3%;
+	height: 100px;
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	border: 3px solid #DDD;
+	-moz-box-shadow: 2px 2px 3px #888;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 2px 2px 3px #888;
+	-webkit-border-radius: 3px;
+}
+
+.speaker .bio
 {
   color: #DDD;
   font-family: Verdana;
   font-size: 15px;
+  margin-left: 11%;
+  text-align:justify;
+}
+
+.speaker #sessions
+{
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left: 11%;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.speaker  .session
+{
+  color: #444;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #CCC;
+  -moz-border-radius: 3px 0px 0px 0px;
+  -webkit-border-top-left-radius: 3px;
+  border-radius: 3px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align:center;
+}
+
+.speaker  .links
+{
   margin-left: 10%;
-  text-align:left;
+  margin-top: -15px;
+  opacity: 0.7;
+}
+
+.speaker .links img
+{
+  margin-left:10px;
+  border:none;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+ 
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+    display: block;
+}
+ 
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+}
+ 
+::-webkit-scrollbar-button:end:increment {
+    background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_dwn.png');
+}
+ 
+::-webkit-scrollbar-button:start:decrement {
+    background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_up.png');
+}
+ 
+::-webkit-scrollbar-track-piece:vertical:start {
+    background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_top.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
+    background-repeat: no-repeat, repeat-y;
+}
+ 
+::-webkit-scrollbar-track-piece:vertical:end {
+    background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_btm.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
+    background-repeat: no-repeat, repeat-y;
+    background-position: bottom left, 0 0;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+    height: 56px;
+    -webkit-border-image: url('http://almaer.com/scrollbar/images/scroll_thumb.png') 8 0 8 0 stretch stretch;
+    border-width: 8 0 8 0;
 }
 
 /******** sessions *******/

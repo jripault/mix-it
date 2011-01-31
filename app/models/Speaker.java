@@ -21,7 +21,16 @@ public class Speaker extends SienaSupport
   @Column("bio")
   @NotNull
   public String bio;
-
+  
+  @Column("twitter")
+  public String twitter;
+  
+  @Column("linkedin")
+  public String linkedin;
+    
+  @Column("blog")
+  public String blog;
+  
   @Column("url_image")
   public String urlImage;
 
