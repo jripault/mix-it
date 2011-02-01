@@ -7,6 +7,13 @@ import java.util.List;
 
 public class Sessions extends Controller
 {
+  public static void index()
+  {
+    List<Session> sessions = Session.findAll();
+    renderArgs.put("sessions", sessions);
+    renderTemplate("Application/sessions.html");
+  }
+
   public static void showSession(Long id)
   {
     Session session = Session.getSessionById(id);

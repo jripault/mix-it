@@ -20,12 +20,12 @@
 	<div id="one" style="height:200px"></div>
 		<div id="list">
 		#{list items:speakers, as:'speaker'}
-		<div class="speaker">
+		<div class="speaker"><a name="speaker_${speaker.id}">
 			<img class="photo" src="${speaker.urlImage}"/>
 			<div class="name">${speaker.firstName} ${speaker.lastName}</div>
 			<div id="sessions">
 				#{list items:speaker.findSessionsBySpeaker(), as:'session'} 
-				<div class="session" style="background-color:${session.getColor(session.id)}">${session.name}</div>
+				<div class="session" style="background-color:${session.getColor(session.id)}"><a href="@{Sessions.index()}#session_${session.id}" style="text-decoration:none;color: #444;">${session.name}</a></div>
 				#{/list}
 			</div>
 			<div class="bio">${speaker.bio}</div><br/>
@@ -40,7 +40,7 @@
 				<a href="${speaker.linkedin}" target="_blank"><img src="/public/images/linkedin.png" alt="linkedin"/></a>
 				#{/if}
 			</div>
-	  </div>
+	  </a></div>
   #{/list}
   </div>
 </div>

@@ -158,6 +158,70 @@ li
   color: #888;
 }
 
+/******* sessions *************/
+
+#sessions
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#sessions #list
+{
+  border: 2px solid #696969;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  overflow:auto;
+  height:400px;
+}
+ .sessionDef
+{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height:200px;
+}
+
+.sessionTitle
+{
+  color: #444;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #CCC;
+  -moz-border-radius: 3px 0px 0px 0px;
+  -webkit-border-top-left-radius: 3px;
+  border-radius: 3px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align:center;
+}
+
+ .sessionDef .speaker
+{
+  color: #00ADEE;
+  font-family: Verdana;
+  font-size: 18px;
+  margin-left: 11%;
+}
+
+ .sessionDef .speaker a
+{
+ text-decoration:underline;
+  color: #00ADEE;
+}
+
+ .sessionDef .description
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 11%;
+  margin-top:5px;
+  text-align:justify;
+}
+
 /******** speakers *******/
 #speakers
 {
@@ -176,7 +240,7 @@ li
   height:400px;
 }
 
-.speaker
+#speakers #list .speaker
 {
   margin-top: 2%;
   margin-bottom: 2%;
