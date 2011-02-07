@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/sponsors.html" afterPath="$PROJECT_DIR$/app/views/Application/sponsors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/inscription.html" afterPath="$PROJECT_DIR$/app/views/Application/inscription.html" />
     </list>
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,15 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SpeakerSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/SpeakerSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="274" selection-end="291" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Speakers.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,10 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sponsors.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sponsors.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="39" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.8260188">
+            <state line="2" column="0" selection-start="51" selection-end="64" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inscription.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="50" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5483871">
               <folding />
             </state>
           </provider>
@@ -166,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/Track.java" />
         <option value="$PROJECT_DIR$/app/controllers/Tracks.java" />
         <option value="$PROJECT_DIR$/app/models/SpeakerSession.java" />
         <option value="$PROJECT_DIR$/app/controllers/SpeakerSessionsAdmin.java" />
@@ -182,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/Application/sponsors.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/inscription.html" />
       </list>
     </option>
   </component>
@@ -711,13 +710,6 @@
         <state line="40" column="22" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="83" selection-start="478" selection-end="478" vertical-scroll-proportion="0.47004607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/SpeakerSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="274" selection-end="291" vertical-scroll-proportion="0.0">
@@ -781,7 +773,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="39" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.8260188">
+        <state line="2" column="0" selection-start="51" selection-end="64" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="50" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5483871">
           <folding />
         </state>
       </provider>
