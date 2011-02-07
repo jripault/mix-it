@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/inscription.html" afterPath="$PROJECT_DIR$/app/views/Application/inscription.html" />
-    </list>
+    <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="" />
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,19 +94,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inscription.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="inscription.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="50" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5483871">
+            <state line="14" column="81" selection-start="413" selection-end="413" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="35" selection-start="3343" selection-end="3343" vertical-scroll-proportion="0.0">
+            <state line="221" column="20" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.64006025">
               <folding />
             </state>
           </provider>
@@ -178,9 +176,9 @@
         <option value="$PROJECT_DIR$/app/models/SpeakerSerializer.java" />
         <option value="$PROJECT_DIR$/app/controllers/Speakers.java" />
         <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/Application/sponsors.html" />
         <option value="$PROJECT_DIR$/app/views/Application/inscription.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
       </list>
     </option>
   </component>
@@ -764,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="35" selection-start="3343" selection-end="3343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="51" selection-end="64" vertical-scroll-proportion="-1.3076923">
@@ -780,7 +771,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5483871">
+        <state line="14" column="81" selection-start="413" selection-end="413" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="221" column="20" selection-start="3318" selection-end="3318" vertical-scroll-proportion="0.64006025">
           <folding />
         </state>
       </provider>
