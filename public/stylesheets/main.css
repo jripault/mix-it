@@ -212,6 +212,10 @@ li {
     padding-right:15px;
 }
 
+.sponsorRow a img{
+    border:none;
+}
+
 /******** speakers *******/
 #speakers {
     margin-left: 10%;
