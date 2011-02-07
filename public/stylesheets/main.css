@@ -216,6 +216,13 @@ li {
     border:none;
 }
 
+.sponsorsTitle{
+    color: #00ADEE;
+    font-family: Verdana;
+    font-size: 18px;
+    margin-left: 11%;
+}
+
 /******** speakers *******/
 #speakers {
     margin-left: 10%;
