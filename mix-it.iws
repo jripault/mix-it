@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/SpeakerSerializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Security.java" afterPath="$PROJECT_DIR$/app/controllers/Security.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Speakers.java" afterPath="$PROJECT_DIR$/app/controllers/Speakers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Speaker.java" afterPath="$PROJECT_DIR$/app/models/Speaker.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/sponsors.html" afterPath="$PROJECT_DIR$/app/views/Application/sponsors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nav.html" afterPath="$PROJECT_DIR$/app/views/tags/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iml" afterPath="$PROJECT_DIR$/mix-it.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
     </list>
     <ignored path="mix-it.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,19 +97,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sponsors.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sponsors.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="728" selection-end="728" vertical-scroll-proportion="-6.5384617">
+            <state line="15" column="62" selection-start="587" selection-end="587" vertical-scroll-proportion="0.39170507">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="606" column="66" selection-start="11227" selection-end="11227" vertical-scroll-proportion="0.6415663">
+            <state line="205" column="24" selection-start="3106" selection-end="3106" vertical-scroll-proportion="-6.8">
               <folding />
             </state>
           </provider>
@@ -145,15 +137,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/tags/smallLogo.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SienaSupport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PLAY_HOME$/modules/crudsiena-1.5/app/models/crudsiena/SienaSupport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="22" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -780,11 +763,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/Application/sessions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="81" selection-start="885" selection-end="937" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="52" selection-start="309" selection-end="320" vertical-scroll-proportion="0.0" />
@@ -857,6 +835,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Application/inscription.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="478" selection-end="478" vertical-scroll-proportion="0.47004607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="38" selection-start="458" selection-end="478" vertical-scroll-proportion="-12.423077">
@@ -864,16 +849,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="728" selection-end="728" vertical-scroll-proportion="-6.5384617">
+        <state line="205" column="24" selection-start="3106" selection-end="3106" vertical-scroll-proportion="-6.8">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+    <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="606" column="66" selection-start="11227" selection-end="11227" vertical-scroll-proportion="0.6415663">
+        <state line="15" column="62" selection-start="587" selection-end="587" vertical-scroll-proportion="0.39170507">
           <folding />
         </state>
       </provider>
