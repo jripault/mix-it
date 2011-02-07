@@ -8,6 +8,7 @@
 # Home page
 GET     /                                       Application.index
 GET     /description                            Application.description
+GET     /inscription                            Application.inscription
 GET     /programme                              Schedule.index
 GET     /sponsors                              Sponsors.index
 GET     /speakers                              Speakers.index

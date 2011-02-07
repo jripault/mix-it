@@ -18,4 +18,9 @@ public class Application extends Controller
   {
     renderTemplate("Application/description.html");
   }
+  
+  public static void inscription()
+  {
+    renderTemplate("Application/inscription.html");
+  }
 }
