@@ -1,8 +1,13 @@
 package models;
 
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonSerializationContext;
+import com.google.gson.JsonSerializer;
 import siena.*;
 import models.crudsiena.SienaSupport;
 
+import java.lang.reflect.Type;
 import java.util.List;
 
 public class Speaker extends SienaSupport

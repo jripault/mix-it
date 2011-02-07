@@ -42,7 +42,9 @@
           <root url="jar://$PLAY_HOME$/framework/play.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$PLAY_HOME$/framework/src" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="library" name="Siena" level="project" />

@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37defafc-b60c-4569-afc1-1a60ce2fff0d" name="ignore" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/SpeakerSessionsAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Tracks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/SpeakerSession.java" />
-      <change type="DELETED" beforePath="H:\Dropbox\Perso\mix-it\app\models\Account.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Sessions.java" afterPath="$PROJECT_DIR$/app/controllers/Sessions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/SpeakerSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Security.java" afterPath="$PROJECT_DIR$/app/controllers/Security.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Speakers.java" afterPath="$PROJECT_DIR$/app/controllers/Speakers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Session.java" afterPath="$PROJECT_DIR$/app/models/Session.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Speaker.java" afterPath="$PROJECT_DIR$/app/models/Speaker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Track.java" afterPath="$PROJECT_DIR$/app/models/Track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/schedule.html" afterPath="$PROJECT_DIR$/app/views/Application/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/speakers.html" afterPath="$PROJECT_DIR$/app/views/Application/speakers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/Application/sponsors.html" afterPath="$PROJECT_DIR$/app/views/Application/sponsors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tags/nav.html" afterPath="$PROJECT_DIR$/app/views/tags/nav.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iml" afterPath="$PROJECT_DIR$/mix-it.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.ipr" afterPath="$PROJECT_DIR$/mix-it.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mix-it.iws" afterPath="$PROJECT_DIR$/mix-it.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/main.css" afterPath="$PROJECT_DIR$/public/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" afterPath="$PROJECT_DIR$/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml" />
@@ -29,6 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager" choice="3" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
     <option name="REVERSE_PATCH" value="false" />
@@ -77,78 +71,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Speaker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
+      <file leaf-file-name="SpeakerSerializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/SpeakerSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="62" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+            <state line="13" column="30" selection-start="274" selection-end="291" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpeakerSessionsAdmin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SpeakerSessionsAdmin.java">
+      <file leaf-file-name="Speakers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Session.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Session.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="41" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+            <state line="21" column="68" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionTypesAdmin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java">
+      <file leaf-file-name="sponsor_sqli.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/sponsor_sqli.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sponsors.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Sponsors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+            <state line="4" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionType.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/SessionType.java">
+      <file leaf-file-name="sponsors.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.39336017">
+            <state line="10" column="9" selection-start="728" selection-end="728" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="86" selection-start="876" selection-end="876" vertical-scroll-proportion="-27.461538">
+            <state line="606" column="66" selection-start="11227" selection-end="11227" vertical-scroll-proportion="0.6415663">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Track.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Track.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="55" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpeakerSession.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/SpeakerSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -156,16 +126,34 @@
       <file leaf-file-name="speakers.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="-5.8846154">
+            <state line="19" column="38" selection-start="458" selection-end="478" vertical-scroll-proportion="-12.423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
+      <file leaf-file-name="nav.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="19" selection-start="1907" selection-end="1907" vertical-scroll-proportion="-8.84">
+            <state line="7" column="46" selection-start="373" selection-end="373" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smallLogo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/smallLogo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SienaSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PLAY_HOME$/modules/crudsiena-1.5/app/models/crudsiena/SienaSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="22" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -186,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/Application/index.html" />
-        <option value="$PROJECT_DIR$/app/views/Application/description.html" />
-        <option value="$PROJECT_DIR$/app/controllers/SpeakersAdmin.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Speakers.java" />
-        <option value="$PROJECT_DIR$/app/models/Account.java" />
-        <option value="$PROJECT_DIR$/app/controllers/Sessions.java" />
         <option value="$PROJECT_DIR$/app/models/Track.java" />
         <option value="$PROJECT_DIR$/app/controllers/Tracks.java" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/models/SpeakerSession.java" />
         <option value="$PROJECT_DIR$/app/controllers/SpeakerSessionsAdmin.java" />
         <option value="$PROJECT_DIR$/app/models/Session.java" />
-        <option value="$PROJECT_DIR$/app/models/Speaker.java" />
-        <option value="$PROJECT_DIR$/app/views/Application/speakers.html" />
-        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/views/Application/schedule.html" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/controllers/Sessions.java" />
+        <option value="$PROJECT_DIR$/app/views/Application/sessions.html" />
+        <option value="$PROJECT_DIR$/app/views/Application/speakers.html" />
+        <option value="$PROJECT_DIR$/app/models/Speaker.java" />
+        <option value="$PROJECT_DIR$/app/models/SpeakerSerializer.java" />
+        <option value="$PROJECT_DIR$/app/controllers/Speakers.java" />
+        <option value="$PROJECT_DIR$/app/views/tags/nav.html" />
+        <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/app/views/Application/sponsors.html" />
       </list>
     </option>
   </component>
@@ -225,7 +213,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -251,6 +239,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -279,8 +269,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,7 +359,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="conf" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,6 +386,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,10 +436,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -473,7 +465,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -486,9 +479,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -516,7 +509,6 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -540,24 +532,6 @@
       </method>
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -598,6 +572,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" />
       <option name="MAIN_CLASS_NAME" />
@@ -615,6 +607,24 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -644,25 +654,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="FtpUpload" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -677,7 +668,6 @@
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="LAST_MERGED_REVISION" />
-    <option name="UPDATE_RUN_STATUS" value="false" />
     <option name="MERGE_DRY_RUN" value="false" />
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
@@ -686,6 +676,7 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
     <configuration useDefault="true">C:\Users\samildanach\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
@@ -699,32 +690,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-4" y="-4" width="1448" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Sudoku" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24733475" sideWeight="0.67286974" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24407753" sideWeight="0.67286974" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="RemoteSynchronizer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Sudoku" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713026" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -742,6 +733,7 @@
     <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="Modifications sur le modèle" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -788,114 +780,100 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
+    <entry file="file://$PROJECT_DIR$/app/views/Application/sessions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="153" selection-start="224" selection-end="294" vertical-scroll-proportion="0.0" />
+        <state line="32" column="81" selection-start="885" selection-end="937" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Sessions.java">
+    <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" />
+        <state line="8" column="52" selection-start="309" selection-end="320" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SessionsAdmin.java">
+    <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+        <state line="77" column="3" selection-start="1481" selection-end="1481" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PLAY_HOME$/framework/lib/gson-1.4.jar!/com/google/gson/JsonElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="116" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
+    <entry file="file://$PLAY_HOME$/framework/src/play/mvc/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="478" selection-end="486" vertical-scroll-proportion="0.0">
+        <state line="299" column="10" selection-start="13025" selection-end="13025" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PLAY_HOME$/framework/src/play/mvc/results/RenderJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="52" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PLAY_HOME$/modules/crudsiena-1.5/app/models/crudsiena/SienaSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="22" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/SpeakerSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="274" selection-end="291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Speakers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="21" column="68" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Security.java">
+    <entry file="file://$PROJECT_DIR$/public/images/sponsor_sqli.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Sponsors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="309" selection-end="319" vertical-scroll-proportion="0.13682093">
+        <state line="4" column="13" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SpeakerSessionsAdmin.java">
+    <entry file="file://$PROJECT_DIR$/app/views/tags/smallLogo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="46" selection-start="373" selection-end="373" vertical-scroll-proportion="-4.576923">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/Application/speakers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="280" selection-end="280" vertical-scroll-proportion="-5.8846154">
+        <state line="19" column="38" selection-start="458" selection-end="478" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Speaker.java">
+    <entry file="file://$PROJECT_DIR$/app/views/Application/sponsors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="62" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+        <state line="10" column="9" selection-start="728" selection-end="728" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="19" selection-start="1907" selection-end="1907" vertical-scroll-proportion="-8.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Application/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="86" selection-start="876" selection-end="876" vertical-scroll-proportion="-27.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Track.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="55" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/SpeakerSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="27" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Session.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="41" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SessionTypesAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/SessionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.39336017">
+        <state line="606" column="66" selection-start="11227" selection-end="11227" vertical-scroll-proportion="0.6415663">
           <folding />
         </state>
       </provider>
@@ -913,11 +891,6 @@
               </list>
             </option>
           </splitter-proportions>
-        </settings>
-      </state>
-      <state key="Copyright.UI">
-        <settings>
-          <splitter-proportions />
         </settings>
       </state>
       <state key="FacetStructureConfigurable.UI">
@@ -962,7 +935,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -978,11 +950,6 @@
               </list>
             </option>
           </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions />
         </settings>
       </state>
     </states>
