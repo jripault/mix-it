@@ -1,11 +1,10 @@
 package models;
 
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
+import com.google.gson.*;
 
+import java.io.IOException;
 import java.lang.reflect.Type;
+import java.util.List;
 
 /**
  * @version $Id$
@@ -20,7 +19,19 @@ public class SpeakerSerializer implements JsonSerializer<Speaker>
     obj.addProperty("lastName", speaker.lastName);
     obj.addProperty("firstName", speaker.firstName);
     obj.addProperty("bio", speaker.bio);
-    //obj.addProperty("urlImage", speaker.urlImage);
-    return obj;  //To change body of implemented methods use File | Settings | File Templates.
+    obj.addProperty("company", speaker.company);
+    obj.addProperty("urlImage", speaker.urlImage);
+    obj.addProperty("twitter", speaker.twitter);
+    obj.addProperty("linkedin", speaker.linkedin);
+    obj.addProperty("blog", speaker.blog);
+
+    JsonArray array = new JsonArray();
+    List<Session> sessions = speaker.findSessionsBySpeaker();
+    for(Session session : sessions)
+    {
+      array.add(new JsonPrimitive(session.id));
+    }
+    obj.add("sessions", array);
+    return obj;
   }
 }

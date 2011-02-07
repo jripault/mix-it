@@ -18,6 +18,7 @@ GET     /sessions                              Sessions.index
 GET     /speakers/json                              Speakers.listAsJson
 GET     /sessions/json                              Sessions.listAsJson
 GET     /tracks/json                              Tracks.listAsJson
+GET     /slots/json                              Slots.listAsJson
 GET     /tracks/{id}/json                              Tracks.listSessionsAsJson
 
 # Map static resources from the /app/public folder to the /public path

@@ -1,6 +1,7 @@
 package controllers;
 
 import models.Session;
+import models.SessionSerializer;
 import play.mvc.Controller;
 
 import java.util.List;
@@ -24,6 +25,6 @@ public class Sessions extends Controller
   public static void listAsJson()
   {
     List<Session> sessions = Session.findAll();
-    renderJSON(sessions);
+    renderJSON(sessions, new SessionSerializer());
   }
 }
