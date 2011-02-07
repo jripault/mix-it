@@ -12,6 +12,7 @@ GET     /inscription                            Application.inscription
 GET     /programme                              Schedule.index
 GET     /sponsors                              Sponsors.index
 GET     /speakers                              Speakers.index
+GET     /sessions                              Sessions.index
 
 # JSon
 GET     /speakers/json                              Speakers.listAsJson

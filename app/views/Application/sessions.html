@@ -1,0 +1,42 @@
+#{extends 'main.html' /}
+#{set title:'Sessions' /}
+#{smallLogo/}
+<script type="text/javascript">
+  $(document).ready(function()
+  {
+    boucle();
+    function boucle()
+    {
+      $('#one').empty();
+      $('#one').append(function(index, html)
+      {
+        return $('.sessionDef').clone()[Math.floor(Math.random() * $('.sessionDef').length)];
+      });
+      $('#one').fadeIn(5000, function()
+      {
+        $('#one').fadeOut(5000, boucle)
+      });
+    }
+
+    ;
+  });
+</script>
+
+<div id="sessions">
+  <div id="one" style="height:200px"></div>
+  <div id="list">
+    #{list items:sessions, as:'session'}
+    <div class="sessionDef"><a name="session_${session.id}">
+      <div class="sessionTitle" style="background-color:${session.getColor(session.id)}">${session.name}</div>
+      <div>
+         #{list items:session.findSpeakersBySession(), as:'speaker'}
+				<div class="speaker"><a href="@{Speakers.index()}#speaker_${speaker.id}">${speaker.firstName} ${speaker.lastName}</a></div>
+				#{/list}
+      </div>
+      <div class="description">${session.description}</div>
+      <br/>
+    </a></div>
+    #{/list}
+  </div>
+</div>
+#{nav/}
