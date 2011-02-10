@@ -33,7 +33,7 @@
 				<div class="speaker"><a href="@{Speakers.index()}#speaker_${speaker.id}">${speaker.firstName} ${speaker.lastName}</a></div>
 				#{/list}
       </div>
-      <div class="description">${session.description}</div>
+      <div class="description">${session.description.raw()}</div>
       <br/>
     </a></div>
     #{/list}
