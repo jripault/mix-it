@@ -16,6 +16,7 @@ public class SpeakerSerializer implements JsonSerializer<Speaker>
   public JsonElement serialize(Speaker speaker, Type type, JsonSerializationContext jsonSerializationContext)
   {
     JsonObject obj = new JsonObject();
+	obj.addProperty("id", speaker.id);
     obj.addProperty("lastName", speaker.lastName);
     obj.addProperty("firstName", speaker.firstName);
     obj.addProperty("bio", speaker.bio);

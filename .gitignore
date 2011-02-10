@@ -1,3 +1,4 @@
 tmp/bytecode/
 tmp/classes/
 mix-it.iml
+precompiled/

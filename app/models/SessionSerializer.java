@@ -17,10 +17,12 @@ public class SessionSerializer implements JsonSerializer<Session>
     JsonObject obj = new JsonObject();
     if(session.slot != null)
       obj.addProperty("slot", session.slot.id);
+	  
+	obj.addProperty("id", session.id);
     obj.addProperty("name", session.name);
     obj.addProperty("description", session.description);
     obj.addProperty("room", session.room);
-    if(session != null)
+    if(session.track != null)
       obj.addProperty("track", session.track.id);
 
     JsonArray array = new JsonArray();
