@@ -158,7 +158,7 @@ li {
     margin-bottom: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    height: 200px;
+    height: 250px;
 }
 
 .sessionTitle {
@@ -177,7 +177,6 @@ li {
     color: #00ADEE;
     font-family: Verdana;
     font-size: 18px;
-    margin-left: 11%;
 }
 
 .sessionDef .speaker a {
@@ -189,7 +188,6 @@ li {
     color: #DDD;
     font-family: Verdana;
     font-size: 15px;
-    margin-left: 11%;
     margin-top: 5px;
     text-align: justify;
 }
@@ -236,7 +234,7 @@ li {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     overflow: auto;
-    height: 400px;
+    height: 500px;
 }
 
 #speakers #list .speaker {
@@ -244,7 +242,7 @@ li {
     margin-bottom: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    height: 200px;
+    height: 250px;
 }
 
 .speaker .name {
