@@ -18,6 +18,9 @@ public class Track extends SienaSupport
   @Column("color")
   public String color;
 
+  @Column("rgb")
+  public String rgb;
+
   @Filter("track")
   public Query<Session> sessions;
 
