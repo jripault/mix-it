@@ -671,7 +671,6 @@ tbody td {
     text-align: left;
     margin-left: 9%;
     margin-right: 10%;
-    font-size: 14px;
-    font: Verdana;
+    font: normal 14pt Verdana;
     color: #FFF;
 }
