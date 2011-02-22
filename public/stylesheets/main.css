@@ -674,3 +674,8 @@ tbody td {
     font: normal 14pt Verdana;
     color: #FFF;
 }
+#remaining {
+    text-align: center;
+    font: normal 16pt Verdana;
+    color: #FFF;
+}

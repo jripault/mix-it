@@ -21,6 +21,8 @@ public class Application extends Controller
   
   public static void inscription()
   {
+    Attendees attendees = Attendees.findAll();
+    renderArgs.put("attendees", attendees);
     renderTemplate("Application/inscription.html");
   }
 }
