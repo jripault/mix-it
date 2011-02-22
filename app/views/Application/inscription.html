@@ -1,55 +1,73 @@
-#{extends 'main.html' /}
+﻿#{extends 'main.html' /}
 #{smallLogo/}
 <script language="Javascript" type="text/javascript" src="/public/javascripts/jquery.lwtCountdown-1.0.js"></script>
 <script language="javascript" type="text/javascript">
-	jQuery(document).ready(function() {
-		$('#countdown_dashboard').countDown({
-			targetDate: {
-				'day': 		22,
-				'month': 	2,
-				'year': 	2011,
-				'hour': 	12,
-				'min': 		0,
-				'sec': 		0
-			}
-		});
-	});
+    jQuery(document).ready(function()
+    {
+        $('#countdown_dashboard').countDown({
+              targetDate: {
+                  'day':     22,
+                  'month':   2,
+                  'year':   2011,
+                  'hour':   12,
+                  'min':     0,
+                  'sec':     0
+              }
+                });
+    });
 </script>
-<div id="container">
-	<h1>INSCRIPTIONS BIENTOT OUVERTES !</h1>
+<h1 style="text-align: center;color: #00ADEE;font-size: 40px;">LES INSCRIPTIONS SONT OUVERTES !</h1>
+<!--div id="container">
+        <h1>INSCRIPTIONS BIENTOT OUVERTES !</h1>
 
-	<div id="countdown_dashboard">
-		<div class="dash weeks_dash">
-			<span class="dash_title">weeks</span>
-			<div class="digit">0</div>
-			<div class="digit">0</div>
-		</div>
+  <div id="countdown_dashboard">
+    <div class="dash weeks_dash">
+      <span class="dash_title">weeks</span>
 
-		<div class="dash days_dash">
-			<span class="dash_title">days</span>
-			<div class="digit">0</div>
-			<div class="digit">0</div>
-		</div>
+      <div class="digit">0</div>
+      <div class="digit">0</div>
+    </div>
 
-		<div class="dash hours_dash">
-			<span class="dash_title">hours</span>
-			<div class="digit">0</div>
-			<div class="digit">0</div>
-		</div>
+    <div class="dash days_dash">
+      <span class="dash_title">days</span>
 
-		<div class="dash minutes_dash">
-			<span class="dash_title">minutes</span>
-			<div class="digit">0</div>
-			<div class="digit">0</div>
-		</div>
+      <div class="digit">0</div>
+      <div class="digit">0</div>
+    </div>
 
-		<div class="dash seconds_dash">
-			<span class="dash_title">seconds</span>
-			<div class="digit">0</div>
-			<div class="digit">0</div>
-		</div>
+    <div class="dash hours_dash">
+      <span class="dash_title">hours</span>
 
-	</div>
-</div>
+      <div class="digit">0</div>
+      <div class="digit">0</div>
+    </div>
 
- #{nav/}
+    <div class="dash minutes_dash">
+      <span class="dash_title">minutes</span>
+
+      <div class="digit">0</div>
+      <div class="digit">0</div>
+    </div>
+
+    <div class="dash seconds_dash">
+      <span class="dash_title">seconds</span>
+
+      <div class="digit">0</div>
+      <div class="digit">0</div>
+    </div>
+
+  </div>
+</div-->
+<center><span id="ticketl"><script type="text/javascript" src="https://ticketlib.com/exp/exportplugin2.0.js"></script><a
+        href="javascript:void(0);" onclick="tL.ivt(this)" name="3721dcc8bcdd8261477a5be85c6626e4"><img
+        src="http://ticketlib.com/exp/blue.png" style="border:0px;cursor:pointer;"/></a></span></center>
+        <div id="instructions">
+            <ul>
+                <li>Remplissez bien le formulaire avec votre nom et prénom.</li>
+                <li>N'oubliez pas d'imprimer le reçu que vous recevrez par mail à la fin de l'inscription. Il faudra
+                    l'amener avec vous lors de la conférence pour que vous puissiez obtenir votre badge.
+                </li>
+            </ul>
+        </div>
+
+#{nav/}

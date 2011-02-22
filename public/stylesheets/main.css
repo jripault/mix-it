@@ -666,3 +666,12 @@ tbody td {
 .dash_title {
     display: none;
 }
+
+#instructions {
+    text-align: left;
+    margin-left: 9%;
+    margin-right: 10%;
+    font-size: 14px;
+    font: Verdana;
+    color: #FFF;
+}
