@@ -1,6 +1,10 @@
 package controllers;
 
+import com.google.gson.GsonBuilder;
+import models.Speaker;
+import models.SpeakerSerializer;
 import models.Track;
+import play.libs.Crypto;
 import play.mvc.Controller;
 
 import java.util.List;
@@ -20,5 +24,13 @@ public class Tracks extends Controller
     {
       renderJSON(track);
     }
+  }
+
+  public static void listAsMd5()
+  {
+    List<Track> tracks = Track.findAll();
+    GsonBuilder gson = new GsonBuilder();
+    String json = gson.create().toJson(tracks);
+    renderText(Crypto.passwordHash(json));
   }
 }

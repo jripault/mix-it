@@ -15,11 +15,15 @@ GET     /speakers                              Speakers.index
 GET     /sessions                              Sessions.index
 
 # JSon
-GET     /speakers/json                              Speakers.listAsJson
-GET     /sessions/json                              Sessions.listAsJson
-GET     /tracks/json                              Tracks.listAsJson
-GET     /slots/json                              Slots.listAsJson
-GET     /tracks/{id}/json                              Tracks.listSessionsAsJson
+GET     /speakers/json                                Speakers.listAsJson
+GET     /sessions/json                                Sessions.listAsJson
+GET     /tracks/json                                  Tracks.listAsJson
+GET     /slots/json                                   Slots.listAsJson
+GET     /speakers/json/md5                            Speakers.listAsMd5
+GET     /sessions/json/md5                            Sessions.listAsMd5
+GET     /tracks/json/md5                              Tracks.listAsMd5
+GET     /slots/json/md5                               Slots.listAsMd5
+GET     /tracks/{id}/json                             Tracks.listSessionsAsJson
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public

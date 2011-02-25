@@ -1,7 +1,11 @@
 package controllers;
 
+import com.google.gson.GsonBuilder;
 import models.Session;
 import models.SessionSerializer;
+import models.Speaker;
+import models.SpeakerSerializer;
+import play.libs.Crypto;
 import play.mvc.Controller;
 
 import java.util.List;
@@ -26,5 +30,15 @@ public class Sessions extends Controller
   {
     List<Session> sessions = Session.findAll();
     renderJSON(sessions, new SessionSerializer());
+  }
+
+
+  public static void listAsMd5()
+  {
+    List<Session> sessions = Session.findAll();
+    GsonBuilder gson = new GsonBuilder();
+    gson.registerTypeAdapter(SessionSerializer.class, new SessionSerializer());
+    String json = gson.create().toJson(sessions);
+    renderText(Crypto.passwordHash(json));
   }
 }
