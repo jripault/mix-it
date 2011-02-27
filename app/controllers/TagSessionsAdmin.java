@@ -7,5 +7,4 @@ import play.mvc.With;
 @CRUD.For(TagSession.class)
 public class TagSessionsAdmin extends CRUD
 {
-
 }

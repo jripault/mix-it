@@ -11,7 +11,6 @@ import java.util.List;
  */
 public class TagSerializer implements JsonSerializer<Tag>
 {
-
   public JsonElement serialize(Tag tag, Type type, JsonSerializationContext jsonSerializationContext)
   {
     JsonObject obj = new JsonObject();

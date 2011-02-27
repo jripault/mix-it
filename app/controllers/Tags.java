@@ -10,6 +10,7 @@ import java.util.List;
 
 public class Tags extends Controller
 {
+
   public static void listAsJson()
   {
     List<Tag> tags = Tag.findAll();

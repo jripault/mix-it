@@ -7,5 +7,4 @@ import play.mvc.With;
 @CRUD.For(Tag.class)
 public class TagsAdmin extends controllers.CRUD
 {
-
 }

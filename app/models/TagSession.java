@@ -8,6 +8,7 @@ import java.util.List;
 
 public class TagSession extends SienaSupport
 {
+
   @Id
   public Long id;
 

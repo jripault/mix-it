@@ -11,7 +11,6 @@ import java.util.List;
  */
 public class SessionSerializer implements JsonSerializer<Session>
 {
-
   public JsonElement serialize(Session session, Type type, JsonSerializationContext jsonSerializationContext)
   {
     JsonObject obj = new JsonObject();

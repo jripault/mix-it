@@ -7,5 +7,4 @@ import play.mvc.With;
 @CRUD.For(SpeakerSession.class)
 public class SpeakerSessionsAdmin extends CRUD
 {
-
 }

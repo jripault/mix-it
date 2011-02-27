@@ -31,5 +31,6 @@ GET     /tracks/{id}/json                             Tracks.listSessionsAsJson
 GET     /public/                                staticDir:public
 
 
+
 # Catch all
 *       /{controller}/{action}                  {controller}.{action}

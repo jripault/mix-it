@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Tag extends SienaSupport
 {
+
   @Id(Generator.AUTO_INCREMENT)
   public Long id;
 

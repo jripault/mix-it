@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Session extends SienaSupport
 {
+
   @Id(Generator.AUTO_INCREMENT)
   public Long id;
 
