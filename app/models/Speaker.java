@@ -1,13 +1,9 @@
 package models;
 
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
-import siena.*;
 import models.crudsiena.SienaSupport;
+import play.data.validation.MaxSize;
+import siena.*;
 
-import java.lang.reflect.Type;
 import java.util.List;
 
 public class Speaker extends SienaSupport
@@ -24,18 +20,19 @@ public class Speaker extends SienaSupport
   public String firstName;
 
   @Column("bio")
+  @MaxSize(2000)
   @NotNull
   public String bio;
-  
+
   @Column("twitter")
   public String twitter;
-  
+
   @Column("linkedin")
   public String linkedin;
-    
+
   @Column("blog")
   public String blog;
-  
+
   @Column("url_image")
   public String urlImage;
 
@@ -48,7 +45,7 @@ public class Speaker extends SienaSupport
   public String toString()
   {
     //TODO bad hack
-    if(firstName == null)
+    if (firstName == null)
     {
       Speaker temp = findById(this.id);
       return temp.firstName + " " + temp.lastName;

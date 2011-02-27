@@ -1,11 +1,10 @@
 package models;
 
+import models.crudsiena.SienaSupport;
+import play.data.validation.MaxSize;
 import siena.*;
 
-import java.util.Date;
 import java.util.List;
-
-import models.crudsiena.SienaSupport;
 
 public class Session extends SienaSupport
 {
@@ -14,6 +13,9 @@ public class Session extends SienaSupport
 
   @Filter("session")
   public Query<SpeakerSession> sessionSpeakers;
+
+  @Filter("session")
+  public Query<TagSession> tagSessions;
 
   @Column("track")
   public Track track;
@@ -25,6 +27,7 @@ public class Session extends SienaSupport
   public String name;
 
   @Column("description")
+  @MaxSize(2000)
   public String description;
 
   @Column("room")
@@ -50,6 +53,12 @@ public class Session extends SienaSupport
     return speakers;
   }
 
+  public List<Tag> findTagsBySession()
+  {
+    List<Tag> tags = TagSession.findBySession(this);
+    return tags;
+  }
+
   public static Session findById(Long id)
   {
     return all().filter("id", id).get();
@@ -69,11 +78,15 @@ public class Session extends SienaSupport
   {
     return Session.all().filter("id", id).get();
   }
-  
+
   public static String getColor(Long id)
   {
-    Session session =  all().filter("id", id).get();
-	Track track = Track.find(session.track.id);
-	return track.color;
+    Session session = all().filter("id", id).get();
+    if (session.track != null)
+    {
+      Track track = Track.find(session.track.id);
+      return track.color;
+    }
+    return "#FFF";
   }
 }

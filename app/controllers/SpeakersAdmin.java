@@ -5,7 +5,7 @@ import play.mvc.With;
 
 @With(Secure.class)
 @CRUD.For(Speaker.class)
-public class SpeakersAdmin extends controllers.CRUD
+public class SpeakersAdmin extends CRUD
 {
 
 }
