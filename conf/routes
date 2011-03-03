@@ -26,7 +26,7 @@ GET     /tracks/json/md5                              Tracks.listAsMd5
 GET     /slots/json/md5                               Slots.listAsMd5
 GET     /tags/json/md5                                Tags.listAsMd5
 GET     /tracks/{id}/json                             Tracks.listSessionsAsJson
-GET     /star                                         Favorites.star
+GET     /sessions/star                                Sessions.star
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
