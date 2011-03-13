@@ -11,6 +11,8 @@ public class Application extends Controller
 
   public static void index()
   {
+    Attendees attendees = Attendees.findAll();
+    renderArgs.put("attendees", attendees);
     render();
   }
 

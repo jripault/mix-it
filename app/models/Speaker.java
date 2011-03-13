@@ -42,6 +42,15 @@ public class Speaker extends SienaSupport
   @Filter("speaker")
   public Query<SpeakerSession> speakerSessions;
 
+  public String getUrlImage()
+  {
+    if(urlImage == null || urlImage.length() == 0)
+    {
+      return "public/images/logo_speaker.png";
+    }
+    return urlImage;
+  }
+
   public String toString()
   {
     //TODO bad hack

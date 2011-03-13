@@ -13,7 +13,7 @@ body {
 #main {
     width: 80%;
     margin-left: 10%;
-    margin-top: 8%;
+    margin-top: 2%;
     font-family: 'mixit-font-bold', Verdana;
 }
 
@@ -31,7 +31,12 @@ h2 {
     margin-top: -8%;
     margin-bottom: 6%;
     font-size: 28px;
-    color: #00ADEE;
+    color: #FFF;
+}
+
+h2 .classIT
+{
+   color: #00ADEE;
 }
 
 h3 {
@@ -62,7 +67,7 @@ li {
 }
 
 .logo {
-    width: 65%;
+    width: 600px;
 }
 
 .logo_small {
@@ -83,6 +88,22 @@ li {
     color: #00ADEE;
 }
 
+#indexTable {
+    height: 200px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: 15%;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    border-collapse: collapse;
+}
+
+#indexTable tr {
+  margin-top:0px;
+}
+
 /******** font *******/
 @font-face {
     font-family: 'mixit-font-bold'
@@ -96,7 +117,7 @@ li {
     color: #FFF;
     font-size: 38px;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 15px;
 }
 
 #tag {
@@ -109,7 +130,7 @@ li {
 /******** nav **********/
 #nav {
     text-align: center;
-    margin-top: 6%;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 
@@ -380,15 +401,14 @@ li {
 
 /******* description *****/
 #description {
-    width: 70%;
-    margin-left: 15%;
-    margin-top: 2%;
+    margin-top: 10px;
+  margin-right:20px;
 }
 
 #description .question {
     font-size: 20px;
     color: #00ADEE;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     font-family: Verdana;
 }
 
@@ -397,8 +417,15 @@ li {
     color: #DDD;
     font-family: Verdana;
     margin-left: 5%;
-    margin-bottom: 3%;
-    margin-top: 1%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#description .main {
+    font-size: 15px;
+    color: #DDD;
+    font-family: Verdana;
+    margin-bottom: 5px;
 }
 
 #description .reponse a {
@@ -411,6 +438,8 @@ li {
 }
 
 /******* Schedule *******/
+
+/*
 table {
     height: 80%;
     width: 80%;
@@ -509,6 +538,7 @@ tbody td {
     font-size: 13px;
     text-align: center;
 }
+*/
 
 .sessionRow {
     vertical-align: middle;
@@ -668,11 +698,21 @@ tbody td {
 }
 
 #instructions {
+    margin-top:10px;
     text-align: left;
-    margin-left: 9%;
-    margin-right: 10%;
-    font: normal 14pt Verdana;
+    font: normal 10pt Verdana;
     color: #FFF;
+}
+#follow {
+    margin-top:10px;
+    text-align: left;
+    font: normal 13pt Verdana;
+    color: #FFF;
+}
+
+#instructions li
+{
+  margin-left: 5px;;
 }
 #remaining {
     text-align: center;

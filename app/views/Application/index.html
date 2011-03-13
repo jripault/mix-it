@@ -32,15 +32,72 @@
     <div id="main">
         <h1><img class="logo" src="/public/images/logo.png" alt="MIX IT"></h1>
 
-        <h2>... DES IDEES POUR TOUT DE SUITE !</h2>
+        <h2>... DES IDEES POUR TOUT DE SU<span class="classIT">IT</span>E !</h2>
 
         <div class="def"> 25 speakers ... Mardi 5 Avril ... Lyon ... 200 participants !</div>
-        <div id="subtitle">
-            <h4>Un évènement proposé par le <a href="http://www.lyonjug.org" target="_blank">Lyon
-                JUG</a> et le <a href="http://clubagile.org/" target="_blank">Club Agile Rhône-Alpes</a>
-            </h4>
-        </div>
     </div>
+  <table id="indexTable">
+    <tr>
+      <td width="65%">
+        <div id="description">
+          <p class="main">Mix-IT est l’aboutissement de la collaboration entre le <a href="http://www.lyonjug.org" style="color: #00ADEE;" target="_blank">Lyon
+                JUG</a> et le <a href="http://clubagile.org/" style="color: #00ADEE;" target="_blank">Club Agile Rhône-Alpes</a> qui s’unissent pour vous proposer une journée exceptionnelle autour de l'agilité, des technologies Java/JEE et des tendances novatrices. Au cours de cette journée participative, venez découvrir, échanger et jouer autour de ces valeurs, méthodes et technologies.</p>
+          <div class="question">Pour qui ?</div>
+          <div class="reponse">Pour tous les passionnés et les curieux, aussi bien
+              les profils techniques que les agilistes, qui veulent découvrir les sujets d'actualité et échanger.
+          </div>
+          <br/>
+
+          <div class="question">Quel format ?</div>
+          <div class="reponse" id="tracks">5 tracks en parallèle : <span class="tooltip techy">Techy<span class="classic">Java et son écosystème</span></span>, <span class="tooltip agility">Agility<span class="classic">Agilité pour débutants et passionnés</span></span>, <span class="tooltip trendy">Trendy<span class="classic">Tendances novatrices et avant-gardistes</span></span>, <span class="tooltip mixy" >Mixy<span class="classic">Le meilleur de l’agilité et des technologies Java</span></span>, <span class="tooltip gamy">Gamy<span class="classic">Echanges autour de jeux agiles et de coding dojos</span></span>
+          </div>
+
+          <div class="question">Quand ?</div>
+          <div class="reponse">Mardi 5 Avril 2011 8h30-18h</div>
+          <br/>
+
+          <div class="question">Combien de places ?</div>
+          <div class="reponse">200 personnes maximum, réservez vite vos places !</div>
+          <br/>
+
+          <div class="question">Quel prix ?</div>
+          <div class="reponse">20 euros par personne, prix comprenant l'entrée et le repas.
+              <br/><br/><i>Le système de réservation ne sera pas ouvert avant le 15 février.</i>
+          </div>
+          <br/>
+
+          <div class="question">Où ?</div>
+          <div class="reponse">
+            E.P.I.T.E.C.H. (Ecole pour l'Informatique et les nouvelles Technologies) - 86 Boulevard Marius Vivier-Merle, 69003 Lyon
+            <br/><br/>
+            <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=fr&amp;t=h&amp;msa=0&amp;msid=201130179857627158188.0004920117ae42c9b37f3&amp;ll=45.75896,4.856558&amp;spn=0.01039,0.018239&amp;z=15&amp;source=embed" style="color:#FFF;text-align:left">Afficher la carte</a></small></div>
+      </div>
+      </td>
+      <td width="35%">
+          <h1 style="text-align: center;color: #00ADEE;font: normal 18pt Verdana;">LES INSCRIPTIONS SONT OUVERTES !</h1>
+          <center>
+              <span id="ticketl">
+                  <a href="https://www.ticketlib.com/index.php?/b_invitations/get/3721dcc8bcdd8261477a5be85c6626e4/">
+                      <img src="http://ticketlib.com/exp/blue.png" style="border:0px;cursor:pointer;"/>
+                  </a>
+              </span>
+          </center>
+          <div id="remaining">Il reste ${attendees.number} places</div>
+          <div id="instructions">
+              <ul>
+                  <li>Aucune place ne sera vendue le jour de l'évènement</li>
+                  <li>Remplissez bien le formulaire avec votre nom et prénom.</li>
+                  <li>N'oubliez pas d'imprimer le reçu que vous recevrez par mail à la fin de l'inscription. Cette
+                      pièce sera nécessaire pour obtenir votre badge.
+                  </li>
+                  <li>Les places à 0€ sont réservées aux sponsors et aux étudiants.</li>
+              </ul>
+          </div>
+
+        <div id="follow">Suivez les derniers préparatifs et les interviews des orateurs sur le <a href="http://blog.mix-it.fr" style="color: #00ADEE;" target="_blank">BLOG</a></div>
+      </td>
+    </tr>
+  </table>
     #{nav/}
     <div id="links">
         <a href="http://twitter.com/mixIT_Lyon"><img class="image" src="/public/images/icon-twitter.png" alt="twitter"/></a>
