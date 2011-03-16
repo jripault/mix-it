@@ -698,7 +698,7 @@ tbody td {
 }
 
 #instructions {
-    margin-top:10px;
+    margin-top:4px;
     text-align: left;
     font: normal 10pt Verdana;
     color: #FFF;
@@ -712,7 +712,9 @@ tbody td {
 
 #instructions li
 {
-  margin-left: 5px;;
+  margin-top:2px;
+  margin-left: 5px;
+  line-height:15px;
 }
 #remaining {
     text-align: center;
