@@ -1,440 +1,503 @@
-html, body {
-    width: 100%;
+html, body
+{
+  width: 100%;
 }
 
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #343838;
-    background: url('/public/images/bg-other-small.png');
+body
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #343838;
+  background: url('/public/images/bg-other-small.png');
 }
 
-#main {
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 2%;
-    font-family: 'mixit-font-bold', Verdana;
+#main
+{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'mixit-font-bold', Verdana;
 }
 
 /********* text **********/
 
-h1 {
-    text-align: center;
-    color: #00ADEE;
-    font-size: 120px;
+h1
+{
+  text-align: center;
+  color: #00ADEE;
+  font-size: 120px;
 }
 
-h2 {
-    text-align: right;
-    margin-right: 10%;
-    margin-top: -8%;
-    margin-bottom: 6%;
-    font-size: 28px;
-    color: #FFF;
+h2
+{
+  text-align: right;
+  margin-right: 10%;
+  margin-top: -8%;
+  margin-bottom: 6%;
+  font-size: 28px;
+  color: #FFF;
 }
 
 h2 .classIT
 {
-   color: #00ADEE;
+  color: #00ADEE;
 }
 
-h3 {
-    text-align: left;
-    margin-left: 9%;
-    margin-right: 10%;
-    font-size: 12px;
-    color: #FFF;
+h3
+{
+  text-align: left;
+  margin-left: 9%;
+  margin-right: 10%;
+  font-size: 12px;
+  color: #FFF;
 }
 
-h4 {
-    text-align: center;
-    margin-left: 9%;
-    margin-right: 10%;
-    font-size: 14px;
-    color: #FFF;
+h4
+{
+  text-align: center;
+  margin-left: 9%;
+  margin-right: 10%;
+  font-size: 14px;
+  color: #FFF;
 }
 
-li {
-    margin-left: 10%;
-    line-height: 40px;
+li
+{
+  margin-left: 10%;
+  line-height: 40px;
 }
 
-.image {
-    width: 40px;
-    margin-left: 1%;
-    border: none;
+.image
+{
+  width: 40px;
+  margin-left: 1%;
+  border: none;
 }
 
-.logo {
-    width: 600px;
+.logo
+{
+  width: 600px;
 }
 
-.logo_small {
-    margin-left: 1%;
-    margin-top: 1%;
+.logo_small
+{
+  margin-left: 1%;
+  margin-top: 1%;
 }
 
-#links {
-    text-align: right;
-    width: 90%;
+#links
+{
+  text-align: right;
+  width: 90%;
 }
 
-#subtitle {
-    font-family: Verdana;
+#subtitle
+{
+  font-family: Verdana;
 }
 
-#subtitle a {
-    color: #00ADEE;
+#subtitle a
+{
+  color: #00ADEE;
 }
 
-#indexTable {
-    height: 200px;
-    width: 70%;
-    margin-top: 15px;
-    margin-left: 15%;
-    font-family: Arial;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    border-collapse: collapse;
+#indexTable
+{
+  height: 200px;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: 15%;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  border-collapse: collapse;
 }
 
-#indexTable tr {
-  margin-top:0px;
+#indexTable tr
+{
+  margin-top: 0px;
 }
 
 /******** font *******/
 @font-face {
-    font-family: 'mixit-font-bold'
+  font-family: 'mixit-font-bold'
 ;
-    src: url('/public/stylesheets/jeanlucweb-bold.otf')
+  src: url('/public/stylesheets/jeanlucweb-bold.otf')
 ;
 }
 
-.def {
-    font-family: 'mixit-font-bold', Verdana;
-    color: #FFF;
-    font-size: 38px;
-    text-align: center;
-    margin-bottom: 15px;
+.def
+{
+  font-family: 'mixit-font-bold', Verdana;
+  color: #FFF;
+  font-size: 38px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-#tag {
-    position: absolute;
-    font-family: 'mixit-font-bold', Verdana;
-    color: #777;
-    font-size: 35px;
+#tag
+{
+  position: absolute;
+  font-family: 'mixit-font-bold', Verdana;
+  color: #777;
+  font-size: 35px;
 }
 
 /******** nav **********/
-#nav {
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 1%;
+#nav
+{
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
-#nav a {
-    margin-left: 3%;
-    text-decoration: none;
-    color: #DDD;
-    font-family: Verdana;
+#nav a
+{
+  margin-left: 3%;
+  text-decoration: underline;
+  font-weight:bold;
+  color: #DDD;
+  font-family: Verdana;
 }
 
-#contact {
-    margin-top: 25px;
-    text-align: center;
+#contact
+{
+  margin-top: 25px;
+  text-align: center;
 }
 
-#contact a {
-    margin-left: 3%;
-    text-decoration: none;
-    color: #DDD;
-    font-family: Verdana;
+#contact a
+{
+  margin-left: 3%;
+  text-decoration: none;
+  color: #DDD;
+  font-family: Verdana;
 }
 
-#contact a:hover {
-    color: #888;
+#contact a:hover
+{
+  color: #888;
 }
 
 /******* sessions *************/
 
-#sessions {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+#sessions
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-#sessions #list {
-    border: 2px solid #696969;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    overflow: auto;
-    height: 400px;
+#sessions #list
+{
+  border: 2px solid #696969;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  overflow: auto;
+  height: 400px;
 }
 
-.sessionDef {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 250px;
+.sessionDef
+{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 250px;
 }
 
-.sessionTitle {
-    color: #444;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #CCC;
-    -moz-border-radius: 3px 0px 0px 0px;
-    -webkit-border-top-left-radius: 3px;
-    border-radius: 3px;
-    margin-left: 15%;
-    margin-right: 15%;
-    text-align: center;
+.sessionTitle
+{
+  color: #444;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #CCC;
+  -moz-border-radius: 3px 0px 0px 0px;
+  -webkit-border-top-left-radius: 3px;
+  border-radius: 3px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
 }
 
-.sessionDef .speaker {
-    color: #00ADEE;
-    font-family: Verdana;
-    font-size: 18px;
+.sessionDef .speaker
+{
+  color: #00ADEE;
+  font-family: Verdana;
+  font-size: 18px;
 }
 
-.sessionDef .speaker a {
-    text-decoration: underline;
-    color: #00ADEE;
+.sessionDef .speaker a
+{
+  text-decoration: underline;
+  color: #00ADEE;
 }
 
-.sessionDef .description {
-    color: #DDD;
-    font-family: Verdana;
-    font-size: 15px;
-    margin-top: 5px;
-    text-align: justify;
+.sessionDef .description
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: justify;
 }
 
 /******** sponsors *******/
-#sponsors {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+#sponsors
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.sponsorRow{
-    padding-bottom:15px;
-    padding-top:15px;
+.sponsorRow
+{
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
-.sponsorRow a{
-    padding-left:15px;
-    padding-right:15px;
+.sponsorRow a
+{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.sponsorRow a img{
-    border:none;
+.sponsorRow a img
+{
+  border: none;
 }
 
-.sponsorsTitle{
-    color: #00ADEE;
-    font-family: Verdana;
-    font-size: 18px;
+.sponsorsTitle
+{
+  color: #00ADEE;
+  font-family: Verdana;
+  font-size: 18px;
 }
 
 /******** speakers *******/
-#appel h2 {
-    text-align: left;
-    margin-right: 0%;
-    margin-top: 0%;
-    margin-bottom: 2%;
-	font-family: Verdana;
-	font-weight: normal;
-	font-size: 22px;
+#appel h2
+{
+  text-align: left;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 22px;
 }
 
-#speakers {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+#speakers
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-
-#speakers #list {
-    border: 2px solid #696969;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    overflow: auto;
-    height: 500px;
+#speakers #list
+{
+  border: 2px solid #696969;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  overflow: auto;
+  height: 500px;
 }
 
-#speakers #list .speaker {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 250px;
+#speakers #list .speaker
+{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 250px;
 }
 
-.speaker .name {
-    color: #00ADEE;
-    font-family: Verdana;
-    font-size: 18px;
-    margin-left: 11%;
+.speaker .name
+{
+  color: #00ADEE;
+  font-family: Verdana;
+  font-size: 18px;
+  margin-left: 11%;
 }
 
-.speaker .photo {
-    float: left;
-    margin-right: 3%;
-    height: 100px;
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    border: 3px solid #DDD;
-    -moz-box-shadow: 2px 2px 3px #888;
-    -moz-border-radius: 3px;
-    -webkit-box-shadow: 2px 2px 3px #888;
-    -webkit-border-radius: 3px;
+.speaker .photo
+{
+  float: left;
+  margin-right: 3%;
+  height: 100px;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  border: 3px solid #DDD;
+  -moz-box-shadow: 2px 2px 3px #888;
+  -moz-border-radius: 3px;
+  -webkit-box-shadow: 2px 2px 3px #888;
+  -webkit-border-radius: 3px;
 }
 
-.speaker .bio {
-    color: #DDD;
-    font-family: Verdana;
-    font-size: 15px;
-    margin-left: 11%;
-    text-align: justify;
+.speaker .bio
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 11%;
+  text-align: justify;
 }
 
-.speaker #sessions {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 11%;
-    font-family: Verdana;
-    font-size: 15px;
+.speaker #sessions
+{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 11%;
+  font-family: Verdana;
+  font-size: 15px;
 }
 
-.speaker  .session {
-    color: #444;
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #CCC;
-    -moz-border-radius: 3px 0px 0px 0px;
-    -webkit-border-top-left-radius: 3px;
-    border-radius: 3px;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+.speaker  .session
+{
+  color: #444;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #CCC;
+  -moz-border-radius: 3px 0px 0px 0px;
+  -webkit-border-top-left-radius: 3px;
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
-.speaker  .links {
-    margin-left: 10%;
-    margin-top: -15px;
-    opacity: 0.7;
+.speaker  .links
+{
+  margin-left: 10%;
+  margin-top: -15px;
+  opacity: 0.7;
 }
 
-.speaker .links img {
-    margin-left: 10px;
-    border: none;
+.speaker .links img
+{
+  margin-left: 10px;
+  border: none;
 }
 
-::-webkit-scrollbar {
-    width: 16px;
-    height: 16px;
+::-webkit-scrollbar
+{
+  width: 16px;
+  height: 16px;
 }
 
 ::-webkit-scrollbar-button:start:decrement,
-::-webkit-scrollbar-button:end:increment {
-    display: block;
+::-webkit-scrollbar-button:end:increment
+{
+  display: block;
 }
 
 ::-webkit-scrollbar-button:vertical:start:increment,
-::-webkit-scrollbar-button:vertical:end:decrement {
-    display: none;
+::-webkit-scrollbar-button:vertical:end:decrement
+{
+  display: none;
 }
 
-::-webkit-scrollbar-button:end:increment {
-    background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_dwn.png');
+::-webkit-scrollbar-button:end:increment
+{
+  background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_dwn.png');
 }
 
-::-webkit-scrollbar-button:start:decrement {
-    background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_up.png');
+::-webkit-scrollbar-button:start:decrement
+{
+  background-image: url('http://almaer.com/scrollbar/images/scroll_cntrl_up.png');
 }
 
-::-webkit-scrollbar-track-piece:vertical:start {
-    background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_top.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
-    background-repeat: no-repeat, repeat-y;
+::-webkit-scrollbar-track-piece:vertical:start
+{
+  background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_top.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
+  background-repeat: no-repeat, repeat-y;
 }
 
-::-webkit-scrollbar-track-piece:vertical:end {
-    background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_btm.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
-    background-repeat: no-repeat, repeat-y;
-    background-position: bottom left, 0 0;
+::-webkit-scrollbar-track-piece:vertical:end
+{
+  background-image: url('http://almaer.com/scrollbar/images/scroll_gutter_btm.png'), url('http://almaer.com/scrollbar/images/scroll_gutter_mid.png');
+  background-repeat: no-repeat, repeat-y;
+  background-position: bottom left, 0 0;
 }
 
-::-webkit-scrollbar-thumb:vertical {
-    height: 56px;
-    -webkit-border-image: url('http://almaer.com/scrollbar/images/scroll_thumb.png') 8 0 8 0 stretch stretch;
-    border-width: 8 0 8 0;
+::-webkit-scrollbar-thumb:vertical
+{
+  height: 56px;
+  -webkit-border-image: url('http://almaer.com/scrollbar/images/scroll_thumb.png') 8 0 8 0 stretch stretch;
+  border-width: 8 0 8 0;
 }
 
 /******** sessions *******/
-#session {
-    margin-left: 10%;
-    margin-top: 2%;
+#session
+{
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
-#session #name {
-    color: #008C9E;
-    font-family: Verdana;
-    font-size: 18px;
+#session #name
+{
+  color: #008C9E;
+  font-family: Verdana;
+  font-size: 18px;
 }
 
-#session #heure {
-    color: #DDD;
-    font-family: Verdana;
-    font-size: 15px;
+#session #heure
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
 }
 
-#session #infos {
-    color: #DDD;
-    font-family: Verdana;
-    font-size: 15px;
+#session #infos
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
 }
 
 /******* description *****/
-#description {
-    margin-top: 10px;
-  margin-right:20px;
+#description
+{
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
-#description .question {
-    font-size: 20px;
-    color: #00ADEE;
-    margin-bottom: 2px;
-    font-family: Verdana;
+#description .question
+{
+  font-size: 20px;
+  color: #00ADEE;
+  margin-bottom: 2px;
+  font-family: Verdana;
 }
 
-#description .reponse {
-    font-size: 15px;
-    color: #DDD;
-    font-family: Verdana;
-    margin-left: 5%;
-    margin-bottom: 5px;
-    margin-top: 5px;
+#description .reponse
+{
+  font-size: 15px;
+  color: #DDD;
+  font-family: Verdana;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
-#description .main {
-    font-size: 15px;
-    color: #DDD;
-    font-family: Verdana;
-    margin-bottom: 5px;
+#description .main
+{
+  font-size: 15px;
+  color: #DDD;
+  font-family: Verdana;
+  margin-bottom: 5px;
 }
 
-#description .reponse a {
-    font-size: 15px;
-    color: #DDD;
-    font-family: Verdana;
-    margin-left: 5%;
-    margin-bottom: 3%;
-    margin-top: 1%;
+#description .reponse a
+{
+  font-size: 15px;
+  color: #DDD;
+  font-family: Verdana;
+  margin-left: 5%;
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 
 /******* Schedule *******/
@@ -540,184 +603,251 @@ tbody td {
 }
 */
 
-.sessionRow {
-    vertical-align: middle;
+.sessionRow
+{
+  vertical-align: middle;
 }
 
-#session {
-    font-family: Verdana;
-    font-size: 16px;
-    text-align: center;
+#session
+{
+  font-family: Verdana;
+  font-size: 16px;
+  text-align: center;
 }
 
-#trackDesc li {
-    color: #FFF;
-    margin-left: 8%;
-    line-height: 40px;
-    font-family: Verdana;
-    font-size: 15px;
-    font-weight: bold;
+#trackDesc li
+{
+  color: #FFF;
+  margin-left: 8%;
+  line-height: 40px;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-.techy {
-    color: #7FD2FF;
+.techy
+{
+  color: #7FD2FF;
 }
 
-.agility {
-    color: #E45635;
+.agility
+{
+  color: #E45635;
 }
 
-.mixy {
-    color: #ADD8C6;
+.mixy
+{
+  color: #ADD8C6;
 }
 
-.trendy {
-    color: #C3FF68;
+.trendy
+{
+  color: #C3FF68;
 }
 
-.gamy {
-    color: #FBB829;
+.gamy
+{
+  color: #FBB829;
 }
 
 /******** sessionDescription *********/
-#desc {
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2%;
+#desc
+{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
 }
 
-#desc #name {
-    color: #008C9E;
-    font-family: Verdana;
-    font-size: 18px;
+#desc #name
+{
+  color: #008C9E;
+  font-family: Verdana;
+  font-size: 18px;
 }
 
-#speaker #description, #room {
-    color: #DDD;
-    font-family: Verdana;
-    font-size: 15px;
+#speaker #description, #room
+{
+  color: #DDD;
+  font-family: Verdana;
+  font-size: 15px;
 }
 
-.tooltip {
-    border-bottom: 1px dotted;
-    outline: none;
-    cursor: help;
-    text-decoration: none;
-    position: relative;
-    font-weight: bold;
+.tooltip
+{
+  border-bottom: 1px dotted;
+  outline: none;
+  cursor: help;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
 }
 
-.tooltip span {
-    margin-left: -999em;
-    position: absolute;
+.tooltip span
+{
+  margin-left: -999em;
+  position: absolute;
 }
 
-.tooltip:hover span {
-    border-radius: 5px 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-    font-family: Calibri, Tahoma, Geneva, sans-serif;
-    position: absolute;
-    left: 1em;
-    top: 2em;
-    z-index: 99;
-    margin-left: 0;
-    width: 200px;
+.tooltip:hover span
+{
+  border-radius: 5px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  font-family: Calibri, Tahoma, Geneva, sans-serif;
+  position: absolute;
+  left: 1em;
+  top: 2em;
+  z-index: 99;
+  margin-left: 0;
+  width: 200px;
 }
 
-.classic {
-    padding: 0.8em 1em;
-    background: #FFFFAA;
-    border: 1px solid #FFAD33;
-    color: black;
+.classic
+{
+  padding: 0.8em 1em;
+  background: #FFFFAA;
+  border: 1px solid #FFAD33;
+  color: black;
 }
 
 /******** inscription *********/
 
-#container h1 {
-    font-size: 28pt;
-    letter-spacing: 6px;
+#container h1
+{
+  font-size: 28pt;
+  letter-spacing: 6px;
 }
 
-#container {
-    margin: 10%;
-    color: #555;
-    font-family: Tahoma;
+#container
+{
+  margin: 10%;
+  color: #555;
+  font-family: Tahoma;
 
 }
 
-#countdown_dashboard {
-    height: 110px;
-    margin-top: 10%;
-    text-align: center;
+#countdown_dashboard
+{
+  height: 110px;
+  margin-top: 10%;
+  text-align: center;
 }
 
-.dash {
-    width: 138px;
-    height: 96px;
-    background: transparent url('../images/dash.png') 0 0 no-repeat;
-    display: inline-block;
-    padding-left: 13px;
-    color: #333;
+.dash
+{
+  width: 138px;
+  height: 96px;
+  background: transparent url('../images/dash.png') 0 0 no-repeat;
+  display: inline-block;
+  padding-left: 13px;
+  color: #333;
 }
 
-.weeks_dash {
-    background: transparent url('../images/dark_weeks_dash.png') 0 0 no-repeat;
+.weeks_dash
+{
+  background: transparent url('../images/dark_weeks_dash.png') 0 0 no-repeat;
 }
 
-.days_dash {
-    background: transparent url('../images/dark_days_dash.png') 0 0 no-repeat;
+.days_dash
+{
+  background: transparent url('../images/dark_days_dash.png') 0 0 no-repeat;
 }
 
-.hours_dash {
-    background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
+.hours_dash
+{
+  background: transparent url('../images/dark_hours_dash.png') 0 0 no-repeat;
 }
 
-.minutes_dash {
-    background: transparent url('../images/dark_minutes_dash.png') 0 0 no-repeat;
+.minutes_dash
+{
+  background: transparent url('../images/dark_minutes_dash.png') 0 0 no-repeat;
 }
 
-.seconds_dash {
-    background: transparent url('../images/dark_seconds_dash.png') 0 0 no-repeat;
+.seconds_dash
+{
+  background: transparent url('../images/dark_seconds_dash.png') 0 0 no-repeat;
 }
 
-.dash .digit {
-    font: bold 52pt Verdana;
-    font-weight: bold;
-    float: left;
-    width: 59px;
-    text-align: center;
+.dash .digit
+{
+  font: bold 52pt Verdana;
+  font-weight: bold;
+  float: left;
+  width: 59px;
+  text-align: center;
 }
 
-.dash_title {
-    display: none;
+.dash_title
+{
+  display: none;
 }
 
-#instructions {
-    margin-top:4px;
-    text-align: left;
-    font: normal 10pt Verdana;
-    color: #FFF;
+#instructions
+{
+  margin-top: 4px;
+  text-align: left;
+  font: normal 10pt Verdana;
+  color: #FFF;
 }
-#follow {
-    margin-top:10px;
-    text-align: left;
-    font: normal 13pt Verdana;
-    color: #FFF;
+
+#follow
+{
+  margin-top: 10px;
+  text-align: left;
+  font: normal 13pt Verdana;
+  color: #FFF;
 }
 
 #instructions li
 {
-  margin-top:2px;
+  margin-top: 2px;
   margin-left: 5px;
-  line-height:15px;
+  line-height: 15px;
+  list-style:none;
 }
-#remaining {
-    text-align: center;
-    font: normal 16pt Verdana;
-    color: #FFF;
+
+#remaining
+{
+  text-align: center;
+  font: normal 16pt Verdana;
+  color: #FFF;
+  margin-top:20px;
+}
+
+.inscriptionButton
+{
+  border-top: 1px solid #96d1f8;
+  background: #65a9d7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  padding: 14.5px 29px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: white;
+  font-size: 24px;
+  font-family: Georgia, serif;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.inscriptionButton:hover
+{
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+.inscriptionButton:active
+{
+  border-top-color: #1b435e;
+  background: #1b435e;
 }
