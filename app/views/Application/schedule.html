@@ -1,5 +1,6 @@
 #{extends 'main.html' /}
 #{set title:'Programme' /}
+#{smallLogo/}
 #{nav/}
 <table id="schedule" align="center">
   <thead>
@@ -16,7 +17,7 @@
     if(type == 'Pause')
     {
     }%
-    <td class="sessionRow" colspan="${tracks.size()}">Pause</td>
+    <td class="sessionRow" colspan="${tracks.size()}">${slot.title}</td>
     {%
     }
     else if(type == 'Keynote')

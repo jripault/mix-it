@@ -26,6 +26,9 @@ public class Slot extends SienaSupport
   @Column("kind")
   public String kind;
 
+  @Column("title")
+  public String title;
+
   static Query<Slot> all()
   {
     return SienaSupport.all(Slot.class).order("startTime");
