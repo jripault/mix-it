@@ -4,14 +4,14 @@
 #{nav/}
 <table id="schedule" align="center">
   <thead>
-  <th/>
+  <th id="thtime"/>
   #{list items:tracks, as:'track'}
   <th>${track.name}</th>
   #{/list}
   </thead>
   #{list items:slots, as:'slot'}
   <tr>
-    <th>${slot.startTime.format("hh:mm")} - ${slot.endTime.format("hh:mm")}</th>
+    <th>${slot.startTime.format("HH:mm")} - ${slot.endTime.format("HH:mm")}</th>
     %{
     type = slot.kind;
     if(type == 'Pause')

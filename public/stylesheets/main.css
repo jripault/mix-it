@@ -505,9 +505,9 @@ li
 
 #schedule {
     height: 80%;
-    width: 80%;
+    width: 96%;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 2%;
     font-family: Arial;
     font-size: 15px;
     font-style: normal;
@@ -525,12 +525,13 @@ li
     font-weight: bold;
     text-shadow: 1px 1px 1px #fff;
     border-bottom: 5px solid #444;
-    width:18%;
+    width:17%;
 }
 
 #schedule thead th:empty {
     background: transparent;
     border: none;
+	width:8%;
 }
 
 #schedule thead :nth-child(2) {
@@ -596,7 +597,7 @@ li
 
 #schedule tbody td {
     font-family: Verdana;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
 }
 
