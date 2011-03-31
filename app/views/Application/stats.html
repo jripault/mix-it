@@ -1,0 +1,119 @@
+#{extends 'main.html' /}
+#{smallLogo/}
+#{nav/}
+<script language="Javascript" type="text/javascript" src="/public/javascripts/jqBarGraph.min.js"></script>
+<script language="javascript" type="text/javascript">
+  jQuery(document).ready(function()
+  {
+    stats = [
+      [3, 5],
+      ["bouh", "bah"]
+    ];
+
+    /*$('#barChart').jqbargraph({
+     data: arrayOfData,
+     showValuesColor: '#F0F'
+     });*/
+
+
+    var Chart = new xChart("chart");
+    Chart.SetClass("chart");
+    Chart.SetTitle("Vote sur l'application Android", "header");
+    Chart.SetLabels(stats[0]);
+    Chart.SetLabelClass("label");
+    Chart.SetData(stats[1]);
+    Chart.Generate();
+
+
+  });
+
+  function xChart(element)
+  {
+
+    this.Chart = document.getElementById(element);
+    this.ChartCSS = "";
+    this.Title = "";
+    this.TitleCSS = "";
+    this.LabelCollection = null;
+    this.LabelCSS = "";
+    this.DataCollection = null;
+
+    this.SetClass = function (css)
+    {
+
+      this.ChartCSS = " class='" + css + "'";
+    }
+
+    this.SetTitle = function (title, css)
+    {
+
+      this.Title = title;
+      this.TitleCSS = " class='" + css + "'";
+    }
+
+    this.SetLabels = function (array_labels)
+    {
+
+      this.LabelCollection = array_labels;
+    }
+
+    this.SetLabelClass = function (css)
+    {
+
+      this.LabelCSS = " class='" + css + "'";
+    }
+
+
+    this.SetData = function (array_data)
+    {
+
+      this.DataCollection = array_data;
+    }
+
+    this.Generate = function()
+    {
+
+      var Code = "";
+
+      Code += "<table" + this.ChartCSS + ">";
+      Code += "<tr><td colspan=2><h3" + this.TitleCSS + ">" + this.Title + "</h3></td></tr>";
+
+      for (var i = 0; i < this.LabelCollection.length; i++)
+      {
+        var width = this.DataCollection[i];
+        Code += "<tr>\n";
+        Code += "<td" + this.LabelCSS + ">" + this.LabelCollection[i] + "</td>\n";
+        Code += "<td><div style='float:left;width:" + width * 100 + "px; background-color:#FF0000; border:1px solid #990000;'>&nbsp;</div><span style='float:left; font-family:tahoma; font-size:10px; padding:3px; color:#FFF'>" + this.DataCollection[i] + "</span></td>\n";
+        Code += "</tr>\n";
+      }
+      Code += "</title>";
+      this.Chart.innerHTML = Code;
+
+    }
+  }
+</script>
+
+<style>
+  .chart
+  {
+    border: 1px solid #CCC;
+  }
+
+  .chart .header
+  {
+    font-family: tahoma;
+    font-size: 15px;
+  }
+
+  .chart .label
+  {
+    background-color: #E1E1E1;
+    font-family: tahoma;
+    font-size: 11px;
+    padding: 2px;
+  }
+</style>
+
+<div id="chart" align="center"></div>
+
+<div id="barChart"></div>

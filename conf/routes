@@ -8,11 +8,13 @@
 # Home page
 GET     /                                       Application.index
 GET     /description                            Application.description
+GET     /team                            Application.team
 GET     /inscription                            Application.inscription
 GET     /programme                              Schedule.index
 GET     /sponsors                              Sponsors.index
 GET     /speakers                              Speakers.index
 GET     /sessions                              Sessions.index
+GET     /stats                                 Application.stats
 
 # JSon
 GET     /speakers/json                                Speakers.listAsJson
