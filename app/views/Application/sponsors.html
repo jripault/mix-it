@@ -3,53 +3,54 @@
 #{smallLogo/}
 #{nav/}
 <script type="text/javascript">
-  var contents = new Array();
-  contents[0] =
-    '<a href="http://www.kalistick.com/" target="_blank"><img src="/public/images/sponsor_Kalistick.png" width="300px"/></a>'
-  contents[1] =
-    '<a class="sponsor" href="http://www.sqli.com/" target="_blank"><img src="/public/images/sponsor_sqli.png" width="200px"/></a>'
-  contents[2] =
-    '<a href="http://www.zenika.com/" target="_blank"><img src="/public/images/sponsor_Zenika.gif" width="200px"/></a>'
+    var contents = new Array();
+    contents[0] =
+            '<a href="http://www.kalistick.com/" target="_blank"><img src="/public/images/sponsor_Kalistick.png" width="300px"/></a>'
+    contents[1] =
+            '<a class="sponsor" href="http://www.sqli.com/" target="_blank"><img src="/public/images/sponsor_sqli.png" width="200px"/></a>'
+    contents[2] =
+            '<a href="http://www.zenika.com/" target="_blank"><img src="/public/images/sponsor_Zenika.gif" width="200px"/></a>'
 
-  $(document).ready(function()
-  {
-    var i = 0
-    //variable used to contain controlled random number
-    var random
-    var spacing = "<br>"
-    //while all of array elements haven't been cycled thru
-    while (i < contents.length)
-    {
-      //generate random num between 0 and arraylength-1
-      random = Math.floor(Math.random() * contents.length)
-      //if element hasn't been marked as "selected"
-      if (contents[random] != "selected")
-      {
-        $('#sponsorPremium').append(contents[random])
-        //mark element as selected
-        contents[random] = "selected"
-        i++
-      }
-    }
-  });
+    $(document).ready(function () {
+        var i = 0
+        //variable used to contain controlled random number
+        var random
+        var spacing = "<br>"
+        //while all of array elements haven't been cycled thru
+        while (i < contents.length) {
+            //generate random num between 0 and arraylength-1
+            random = Math.floor(Math.random() * contents.length)
+            //if element hasn't been marked as "selected"
+            if (contents[random] != "selected") {
+                $('#sponsorPremium').append(contents[random])
+                //mark element as selected
+                contents[random] = "selected"
+                i++
+            }
+        }
+    });
 </script>
 
 <div align="center">
-  <div class="sponsorsTitle">Sponsor Gold</div>
-  <div class="sponsorRow">
-    <a href="http://www.objetdirect.com/" target="_blank"><img src="/public/images/sponsor_Objet-Direct.png"
-                                                               width="300px"/></a>
-  </div>
-  <div class="sponsorsTitle">Sponsors Silver</div>
-  <div id="sponsorPremium" class="sponsorRow">
-  </div>
-  <div class="sponsorsTitle">Sponsor Bronze</div>
-  <div class="sponsorRow">
-    <a href="http://ut7.fr/" target="_blank"><img src="/public/images/sponsor_Ut7.png" width="100px"/></a>
-  </div>
-  <div class="sponsorsTitle">Partenaires</div>
-  <div class="sponsorRow">
-    <a href="http://lyon.epitech.net/" target="_blank"><img src="/public/images/logo_Epitech.png" width="200px"/></a>
-    <a href="http://www.developpez.com/" target="_blank"><img src="http://www.developpez.com/template/images/logo.gif" alt="Developpez.com" width="200px"></a>
-  </div>
+    <div class="sponsorsTitle">Sponsor Gold</div>
+    <div class="sponsorRow">
+        <a href="http://www.objetdirect.com/" target="_blank"><img src="/public/images/sponsor_Objet-Direct.png"
+                                                                   width="300px"/></a>
+    </div>
+    <div class="sponsorsTitle">Sponsors Silver</div>
+    <div id="sponsorPremium" class="sponsorRow">
+    </div>
+    <div class="sponsorsTitle">Sponsor Bronze</div>
+    <div class="sponsorRow">
+        <a href="http://ut7.fr/" target="_blank"><img src="/public/images/sponsor_Ut7.png" width="100px"/></a>
+    </div>
+    <div class="sponsorsTitle">Partenaires</div>
+    <div class="sponsorRow">
+        <a href="http://lyon.epitech.net/" target="_blank"><img src="/public/images/logo_Epitech.png"
+                                                                width="200px"/></a>
+        <a href="http://www.developpez.com/" target="_blank"><img
+                src="http://www.developpez.com/template/images/logo.gif" alt="Developpez.com" width="200px"></a>
+        <a href="http://www.neoxia.com/" target="_blank"><img src="/public/images/logo_neoxia.png" alt="Neoxia"
+                                                              width="200px"></a>
+    </div>
 </div>
