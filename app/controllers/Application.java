@@ -7,9 +7,12 @@ import play.mvc.Controller;
 public class Application extends Controller {
 
     public static void index() {
-        /*Attendees attendees = Attendees.findAll();
+        Attendees attendees = Attendees.findAll();
         renderArgs.put("attendees", attendees);
-        render();*/
+        render();
+    }
+
+    public static void next(){
         renderTemplate("Application/next.html");
     }
 

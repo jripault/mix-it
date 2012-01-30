@@ -7,15 +7,16 @@
 
 # Home page
 GET     /                                       Application.index
+GET     /2012                                   Application.next
 GET     /description                            Application.description
-GET     /questionnaire                            Application.questionnaire
-GET     /team                            Application.team
+GET     /questionnaire                          Application.questionnaire
+GET     /team                                   Application.team
 GET     /inscription                            Application.inscription
 GET     /programme                              Schedule.index
-GET     /sponsors                              Sponsors.index
-GET     /speakers                              Speakers.index
-GET     /sessions                              Sessions.index
-GET     /stats                                 Application.stats
+GET     /sponsors                               Sponsors.index
+GET     /speakers                               Speakers.index
+GET     /sessions                               Sessions.index
+GET     /stats                                  Application.stats
 
 # JSon
 GET     /speakers/json                                Speakers.listAsJson
